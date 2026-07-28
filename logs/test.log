@@ -1,0 +1,9 @@
+2026-07-28 17:29:05.842 [INFO ] com.yejunlong.tests.BookingLogTest - ========== 开始测试：登录 ==========
+2026-07-28 17:29:08.861 [INFO ] com.yejunlong.tests.BookingLogTest - 登录成功，token:593ede6deaa473a
+2026-07-28 17:29:08.862 [INFO ] com.yejunlong.tests.BookingLogTest - ========== 登录测试完成 ==========
+2026-07-28 17:29:08.868 [INFO ] com.yejunlong.tests.BookingLogTest - ========== 开始测试：创建订单 ==========
+2026-07-28 17:29:10.252 [INFO ] com.yejunlong.tests.BookingLogTest - 创建订单成功，订单号：4491
+2026-07-28 17:29:10.253 [INFO ] com.yejunlong.tests.BookingLogTest - ========== 创建订单测试完成 ==========
+2026-07-28 17:29:10.255 [INFO ] com.yejunlong.tests.BookingLogTest - ========== 开始测试：查询订单 ==========
+2026-07-28 17:29:11.118 [INFO ] com.yejunlong.tests.BookingLogTest - 查询订单成功，订单号：4491
+2026-07-28 17:29:11.118 [INFO ] com.yejunlong.tests.BookingLogTest - ========== 查询订单测试完成 ==========
