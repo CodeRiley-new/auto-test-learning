@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="3" failures="0" name="com.yejunlong.tests.BookingLogTest" time="5.274" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.19+10"/>
+    <property name="sun.boot.library.path" value="D:\JAVA\jdk-17.0.19+10\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\IdeaProgram\ideaprogram\auto-test-day11"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\IdeaProgram\ideaprogram\auto-test-day11"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="17.0.19+10"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\叶俊龙\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="classworlds.conf" value="D:\Maven\apache-maven-3.8.9\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="D:\JAVA\jdk-17.0.19+10\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:\VMware\bin\;D:\JAVA\jdk-17.0.19+10\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Bandizip\;D:\学习\IDEA\tomcat\apache-tomcat-8.5.81\bin;%JRE_HOME%\jre\bin;E:\学习\微信小程序开发\微信web开发者工具\dll;C:\Program File;\MySQL\MySQL Server 5.7\bin\;E:\Program Files\Xshell\;E:\Program Files\Xftp\;C:\Program Files\dotnet\;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;E:\NodeJs;E:\NodeJs\node_global;E:\NodeJs\node_modules\npm\bin;D:\Maven\apache-maven-3.8.9\bin;MAVEN_HOME;D:\Program Files\allure-2.44.0\bin;D:\Program Files\Git\Git\cmd;d:\TRAE\Trae CN\bin;C:\Users\叶俊龙\AppData\Local\Microsoft\WindowsApps;D:\VS\Microsoft VS Code\bin;D:\Program Files\JDK\jdk1.8.0_333\bin;D:\IdeaProgram\IntelliJ IDEA 2025.3.1\bin;E:\Program Files\DevEco Studio\bin;;C:\Users\叶俊龙\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="D:\Maven\apache-maven-3.8.9/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="D:\Maven\apache-maven-3.8.9\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\叶俊龙"/>
+    <property name="user.timezone" value="Asia/Singapore"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="叶俊龙"/>
+    <property name="java.class.path" value="D:\Maven\apache-maven-3.8.9\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="java.home" value="D:\JAVA\jdk-17.0.19+10"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17.0.19"/>
+    <property name="native.encoding" value="GBK"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.stderr.encoding" value="ms936"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="maven.home" value="D:\Maven\apache-maven-3.8.9"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2026-04-21"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Temurin-17.0.19+10"/>
+    <property name="sun.stdout.encoding" value="ms936"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.yejunlong.tests.BookingLogTest" name="testLogin" time="3.025"/>
+  <testcase classname="com.yejunlong.tests.BookingLogTest" name="testCreateBooking" time="1.385"/>
+  <testcase classname="com.yejunlong.tests.BookingLogTest" name="testGetBooking" time="0.864"/>
+</testsuite>

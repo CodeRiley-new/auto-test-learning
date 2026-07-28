@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-28T17:29:05 SGT" name="com.yejunlong.tests.BookingLogTest" finished-at="2026-07-28T17:29:11 SGT" duration-ms="5311">
+    <groups>
+    </groups>
+    <test started-at="2026-07-28T17:29:05 SGT" name="Command line test" finished-at="2026-07-28T17:29:11 SGT" duration-ms="5311">
+      <class name="com.yejunlong.tests.BookingLogTest">
+        <test-method signature="testLogin()[pri:0, instance:com.yejunlong.tests.BookingLogTest@cc43f62]" started-at="2026-07-28T17:29:05 SGT" name="testLogin" finished-at="2026-07-28T17:29:08 SGT" duration-ms="3025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testCreateBooking()[pri:0, instance:com.yejunlong.tests.BookingLogTest@cc43f62]" started-at="2026-07-28T17:29:08 SGT" name="testCreateBooking" finished-at="2026-07-28T17:29:10 SGT" depends-on-methods="com.yejunlong.tests.BookingLogTest.testLogin" duration-ms="1385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBooking -->
+        <test-method signature="testGetBooking()[pri:0, instance:com.yejunlong.tests.BookingLogTest@cc43f62]" started-at="2026-07-28T17:29:10 SGT" name="testGetBooking" finished-at="2026-07-28T17:29:11 SGT" depends-on-methods="com.yejunlong.tests.BookingLogTest.testLogin, com.yejunlong.tests.BookingLogTest.testCreateBooking" duration-ms="865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetBooking -->
+      </class> <!-- com.yejunlong.tests.BookingLogTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.yejunlong.tests.BookingLogTest -->
+</testng-results>

@@ -1,0 +1,12 @@
+D:\IdeaProgram\ideaprogram\auto-test-day11\src\test\java\com\yejunlong\api\BookingApi.java
+D:\IdeaProgram\ideaprogram\auto-test-day11\src\test\java\com\yejunlong\config\ApiConfig.java
+D:\IdeaProgram\ideaprogram\auto-test-day11\src\test\java\com\yejunlong\model\BookingResponse.java
+D:\IdeaProgram\ideaprogram\auto-test-day11\src\test\java\com\yejunlong\api\AuthApi.java
+D:\IdeaProgram\ideaprogram\auto-test-day11\src\test\java\com\yejunlong\client\ApiClient.java
+D:\IdeaProgram\ideaprogram\auto-test-day11\src\test\java\com\yejunlong\utils\AssertUtils.java
+D:\IdeaProgram\ideaprogram\auto-test-day11\src\test\java\com\yejunlong\utils\JsonUtils.java
+D:\IdeaProgram\ideaprogram\auto-test-day11\src\test\java\com\yejunlong\model\AuthRequest.java
+D:\IdeaProgram\ideaprogram\auto-test-day11\src\test\java\com\yejunlong\model\BookingRequest.java
+D:\IdeaProgram\ideaprogram\auto-test-day11\src\test\java\com\yejunlong\tests\BookingLogTest.java
+D:\IdeaProgram\ideaprogram\auto-test-day11\src\test\java\com\yejunlong\utils\DbUtils.java
+D:\IdeaProgram\ideaprogram\auto-test-day11\src\test\java\com\yejunlong\model\AuthResponse.java
