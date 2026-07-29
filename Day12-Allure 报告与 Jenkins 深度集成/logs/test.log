@@ -1,0 +1,16 @@
+﻿2026-07-29 16:50:15.329 [INFO ] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\叶俊龙\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-07-29 16:50:15.429 [INFO ] c.yejunlong.tests.BookingAllureTest - ========== 开始测试：登录 ==========
+2026-07-29 16:51:22.572 [INFO ] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\叶俊龙\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-07-29 16:51:22.673 [INFO ] c.yejunlong.tests.BookingAllureTest - ========== 开始测试：登录 ==========
+2026-07-29 16:51:25.141 [INFO ] c.yejunlong.tests.BookingAllureTest - 登录成功，token:d8d74f5d2f80dbf
+2026-07-29 16:51:25.141 [INFO ] c.yejunlong.tests.BookingAllureTest - ========== 登录测试完成 ==========
+2026-07-29 16:51:25.193 [INFO ] c.yejunlong.tests.BookingAllureTest - ========== 开始测试：创建订单 ==========
+2026-07-29 16:51:26.336 [INFO ] c.yejunlong.tests.BookingAllureTest - 创建订单成功，订单号：279
+2026-07-29 16:51:26.336 [INFO ] c.yejunlong.tests.BookingAllureTest - ========== 创建订单测试完成 ==========
+2026-07-29 16:51:26.343 [INFO ] c.yejunlong.tests.BookingAllureTest - ========== 开始测试：查询订单 ==========
+2026-07-29 16:51:27.034 [INFO ] c.yejunlong.tests.BookingAllureTest - 查询订单成功，订单号：279
+2026-07-29 16:51:27.035 [INFO ] c.yejunlong.tests.BookingAllureTest - ========== 查询订单测试完成 ==========
