@@ -22,7 +22,10 @@ jobs:
           cache: maven
 
       - name: Run tests with Maven
-        run: mvn -f "Day12-Allure 报告与 Jenkins 深度集成/pom.xml" clean test
+        run: |
+          export JAVA_OPTS="-Dhttp.proxyHost=127.0.0.1 -Dhttp.proxyPort=7897"
+          cd "Day12-Allure 报告与 Jenkins 深度集成/pom.xml"
+          mvn clean test
 
       - name: Install Allure
         run: |
