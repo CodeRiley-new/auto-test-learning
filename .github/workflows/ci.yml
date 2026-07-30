@@ -10,6 +10,10 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write         # 允许 github-actions[bot] 推送代码
+      pages: write            # 允许部署到 GitHub Pages
+      id-token: write         # 用于身份验证
 
     steps:
       - uses: actions/checkout@v4
