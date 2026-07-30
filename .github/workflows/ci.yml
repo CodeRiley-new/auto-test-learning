@@ -22,7 +22,7 @@ jobs:
           cache: maven
 
       - name: Run tests with Maven
-        run: mvn clean test
+        run: mvn -f "Day12-Allure 报告与 Jenkins 深度集成/pom.xml" clean test
 
       - name: Install Allure
         run: |
