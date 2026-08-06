@@ -1,0 +1,4275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ZAP by Checkmarx Scanning Report</title>
+<link
+	href="2026-08-06-ZAP-Report-/normalize/normalize.css" rel="stylesheet">
+<link
+	href="2026-08-06-ZAP-Report-/themes/original/main.css" rel="stylesheet">
+<link
+	href="2026-08-06-ZAP-Report-/themes/original/colors.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<h1>ZAP by Checkmarx Scanning Report</h1>
+		<p>
+			<span>Generated with</span> <a href="https://zaproxy.org"><img
+				src="2026-08-06-ZAP-Report-/zap32x32.png" alt="The ZAP logo" class="zap-logo">ZAP</a>
+			<span>on 周四 6 8月 2026, at 16:16:38</span>
+		</p>
+		<p>ZAP 版本：2.17.0</p>
+		<p>
+			ZAP by <a href="https://checkmarx.com/">Checkmarx</a>
+		</p>
+	</header>
+
+	<main>
+
+		<section id="contents" class="contents">
+			<h2>Contents</h2>
+			<nav>
+				<ol>
+					<li><a
+						href="#about-this-report">About This Report</a>
+						<ol>
+							
+							<li><a
+								href="#report-parameters">Report Parameters</a></li>
+						</ol></li>
+					<data-th-block>
+					<li><a
+						href="#summaries">Summaries</a>
+						<ol>
+							<li><a
+								href="#risk-confidence-counts">Alert Counts by Risk and Confidence</a></li>
+							<li><a
+								href="#site-risk-counts">Alert Counts by Site and Risk</a></li>
+							<li><a
+								href="#alert-type-counts">Alert Counts by Alert Type</a></li>
+							<li><a
+								href="#insights">Insights</a></li>
+						</ol></li>
+					<li><a
+						href="#alerts">Alerts</a>
+						<ol>
+							
+							 
+							
+							
+							
+							
+							<li><a
+								href="#alerts--risk-2-confidence-3"><span>Risk</span>=<span
+									class="risk-level">中</span>, <span>Confidence</span>=<span
+									class="confidence-level">高</span> <span>(3)</span></a></li>
+							
+							<li><a
+								href="#alerts--risk-2-confidence-2"><span>Risk</span>=<span
+									class="risk-level">中</span>, <span>Confidence</span>=<span
+									class="confidence-level">中</span> <span>(1)</span></a></li>
+							
+							
+							  
+							
+							
+							
+							
+							<li><a
+								href="#alerts--risk-1-confidence-3"><span>Risk</span>=<span
+									class="risk-level">低</span>, <span>Confidence</span>=<span
+									class="confidence-level">高</span> <span>(1)</span></a></li>
+							
+							<li><a
+								href="#alerts--risk-1-confidence-2"><span>Risk</span>=<span
+									class="risk-level">低</span>, <span>Confidence</span>=<span
+									class="confidence-level">中</span> <span>(3)</span></a></li>
+							
+							<li><a
+								href="#alerts--risk-1-confidence-1"><span>Risk</span>=<span
+									class="risk-level">低</span>, <span>Confidence</span>=<span
+									class="confidence-level">低</span> <span>(1)</span></a></li>
+							  
+							
+							
+							
+							
+							
+							
+							<li><a
+								href="#alerts--risk-0-confidence-2"><span>Risk</span>=<span
+									class="risk-level">信息提示</span>, <span>Confidence</span>=<span
+									class="confidence-level">中</span> <span>(1)</span></a></li>
+							
+							<li><a
+								href="#alerts--risk-0-confidence-1"><span>Risk</span>=<span
+									class="risk-level">信息提示</span>, <span>Confidence</span>=<span
+									class="confidence-level">低</span> <span>(2)</span></a></li>
+							  
+						</ol></li>
+					<li><a
+						href="#appendix">Appendix</a>
+						<ol>
+							<li><a
+								href="#alert-types">Alert Types</a></li>
+						</ol></li>
+					</data-th-block>
+				</ol>
+			</nav>
+		</section>
+
+		<section
+			id="about-this-report" class="about-this-report">
+			<h2>About This Report</h2>
+
+			
+
+			<section
+				id="report-parameters">
+				<h3>Report Parameters</h3>
+				<div class="report-parameters--container">
+					<h4>Contexts</h4>
+					
+					
+					<p>No contexts were selected, so all contexts were included by default.</p>
+					  
+
+					<h4>Sites</h4>
+					
+					<p>The following sites were included:</p>
+					<ul class="sites-list">
+						<li><span class="site">https://restful-booker.herokuapp.com</span></li>
+					</ul>
+					
+					<p>(If no sites were selected, all sites were included by default.)</p>
+					<p>An included site must also be within one of the included contexts for its data to be included in the report.</p>
+
+					<h4>Risk levels</h4>
+					<p>
+						<span>Included</span>:
+						 
+						<span class="included-risk-codes"><span class="risk-level">高</span>, <span class="risk-level">中</span>, <span class="risk-level">低</span>, <span class="risk-level">信息提示</span></span>
+					</p>
+					<p>
+						<span>Excluded</span>:
+						 <span>None</span>
+						
+					</p>
+
+					<h4>Confidence levels</h4>
+					<p>
+						<span>Included</span>:
+						
+						
+						<span class="included-confidence-codes"><span class="confidence-level">用户已确认</span>, <span class="confidence-level">高</span>, <span class="confidence-level">中</span>, <span class="confidence-level">低</span></span>
+					</p>
+					<p>
+						<span>Excluded</span>:
+						
+						
+						<span class="included-confidence-codes"> <span class="confidence-level">用户已确认</span>, <span class="confidence-level">高</span>, <span class="confidence-level">中</span>, <span class="confidence-level">低</span>, <span class="confidence-level">误报</span></span>
+					</p>
+				</div>
+			</section>
+		</section>
+
+		
+		<section>
+			
+		</section>
+		
+		<section id="summaries" class="summaries">
+			<h2>Summaries</h2>
+
+			<section
+				id="risk-confidence-counts">
+				<h3>Alert Counts by Risk and Confidence</h3>
+				<table class="risk-confidence-counts-table">
+					<caption>
+						<p>This table shows the number of alerts for each level of risk and confidence included in the report.</p>
+						<p>(The percentages in brackets represent the count as a percentage of the total number of alerts included in the report, rounded to one decimal place.)</p>
+					</caption>
+					<colgroup>
+						<col>
+						<col>
+					</colgroup>
+					<colgroup>
+						<col
+							style="width: 14.0%"><col
+							style="width: 14.0%"><col
+							style="width: 14.0%"><col
+							style="width: 14.0%">
+						<col style="width: 14.0%">
+					</colgroup>
+					<thead>
+						<tr>
+							<td colspan="2" rowspan="2"></td>
+							<th scope="colgroup"
+								colspan="5">Confidence</th>
+						</tr>
+						<tr>
+							<th scope="col">用户已确认</th>
+							<th scope="col">高</th>
+							<th scope="col">中</th>
+							<th scope="col">低</th>
+							<th scope="col">Total</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="rowgroup"
+								rowspan="5">Risk</th>
+							<th scope="row">高</th>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>0</span><br> <span class="additional-info-percentages">(0.0%)</span></td>
+						</tr>
+						<tr>
+							
+							<th scope="row">中</th>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>3</span><br> <span
+								class="additional-info-percentages">(25.0%)</span></td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(8.3%)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>4</span><br> <span class="additional-info-percentages">(33.3%)</span></td>
+						</tr>
+						<tr>
+							
+							<th scope="row">低</th>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(8.3%)</span></td>
+							<td><span>3</span><br> <span
+								class="additional-info-percentages">(25.0%)</span></td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(8.3%)</span></td>
+							<td><span>5</span><br> <span class="additional-info-percentages">(41.7%)</span></td>
+						</tr>
+						<tr>
+							
+							<th scope="row">信息提示</th>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(8.3%)</span></td>
+							<td><span>2</span><br> <span
+								class="additional-info-percentages">(16.7%)</span></td>
+							<td><span>3</span><br> <span class="additional-info-percentages">(25.0%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row">Total</th>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>4</span><br> <span
+								class="additional-info-percentages">(33.3%)</span></td>
+							<td><span>5</span><br> <span
+								class="additional-info-percentages">(41.7%)</span></td>
+							<td><span>3</span><br> <span
+								class="additional-info-percentages">(25.0%)</span></td>
+							<td><span>12</span><br> <span
+								class="additional-info-percentages">(100%)</span></td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+
+			<section
+				id="site-risk-counts">
+				<h3>Alert Counts by Site and Risk</h3>
+				<table class="site-risk-counts-table">
+					<caption>
+						<p>This table shows, for each site for which one or more alerts were raised, the number of alerts raised at each risk level.</p>
+						<p>Alerts with a confidence level of &quot;False Positive&quot; have been excluded from these counts.</p>
+						<p>(The numbers in brackets are the number of alerts raised for the site at or above that risk level.)</p>
+					</caption>
+					<colgroup>
+						<col>
+						<col>
+					</colgroup>
+					<colgroup>
+						<col
+							style="width: 16.25%"><col
+							style="width: 16.25%"><col
+							style="width: 16.25%"><col
+							style="width: 16.25%">
+					</colgroup>
+					<thead>
+						<tr>
+							<td colspan="2" rowspan="2"></td>
+							<th scope="colgroup" colspan="4">Risk</th>
+						</tr>
+						<tr>
+							<th scope="col">
+								<span>高</span><br>  <span
+									class="additional-info-percentages">(= 高)</span>  
+							</th>
+							<th scope="col">
+								<span>中</span><br>   <span
+									class="additional-info-percentages">(&gt;= 中)</span> 
+							</th>
+							<th scope="col">
+								<span>低</span><br>   <span
+									class="additional-info-percentages">(&gt;= 低)</span> 
+							</th>
+							<th scope="col">
+								<span>信息提示</span><br>   <span
+									class="additional-info-percentages">(&gt;= 信息提示)</span> 
+							</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="rowgroup"
+								rowspan="1">Site</th>
+							<th scope="row">https://restful-booker.herokuapp.com</th>
+							
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0)</span></td>
+							<td><span>4</span><br> <span
+								class="additional-info-percentages">(4)</span></td>
+							<td><span>5</span><br> <span
+								class="additional-info-percentages">(9)</span></td>
+							<td><span>3</span><br> <span
+								class="additional-info-percentages">(12)</span></td>
+							
+						</tr>
+					</tbody>
+				</table>
+			</section>
+
+			<section
+				id="alert-type-counts">
+				<h3>Alert Counts by Alert Type</h3>
+				<table class="alert-type-counts-table">
+					<caption>
+						<p>This table shows the number of alerts of each alert type, together with the alert type&#39;s risk level.</p>
+						<p>(The percentages in brackets represent each count as a percentage, rounded to one decimal place, of the total number of alerts included in this report.)</p>
+					</caption>
+					<thead>
+						<tr>
+							<th scope="col">Alert type</th>
+							<th scope="col">Risk</th>
+							<th scope="col">Count</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-0">CSP: Failure to Define Directive with No Fallback</a></th>
+							<td class="risk-level">中</td>
+							<td><span>5</span><br> <span
+								class="additional-info-percentages">(41.7%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-1">Content Security Policy (CSP) Header Not Set</a></th>
+							<td class="risk-level">中</td>
+							<td><span>5</span><br> <span
+								class="additional-info-percentages">(41.7%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-2">Missing Anti-clickjacking Header</a></th>
+							<td class="risk-level">中</td>
+							<td><span>5</span><br> <span
+								class="additional-info-percentages">(41.7%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-3">Sub Resource Integrity Attribute Missing</a></th>
+							<td class="risk-level">中</td>
+							<td><span>5</span><br> <span
+								class="additional-info-percentages">(41.7%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-4">Cross-Domain JavaScript Source File Inclusion</a></th>
+							<td class="risk-level">低</td>
+							<td><span>3</span><br> <span
+								class="additional-info-percentages">(25.0%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-5">Server Leaks Information via &quot;X-Powered-By&quot; HTTP Response Header Field(s)</a></th>
+							<td class="risk-level">低</td>
+							<td><span>5</span><br> <span
+								class="additional-info-percentages">(41.7%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-6">Strict-Transport-Security Header Not Set</a></th>
+							<td class="risk-level">低</td>
+							<td><span>5</span><br> <span
+								class="additional-info-percentages">(41.7%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-7">X-Content-Type-Options Header Missing</a></th>
+							<td class="risk-level">低</td>
+							<td><span>5</span><br> <span
+								class="additional-info-percentages">(41.7%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-8">时间戳泄漏 - Unix</a></th>
+							<td class="risk-level">低</td>
+							<td><span>5</span><br> <span
+								class="additional-info-percentages">(41.7%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-9">Information Disclosure - Suspicious Comments</a></th>
+							<td class="risk-level">信息提示</td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(8.3%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-10">Re-examine Cache-control Directives</a></th>
+							<td class="risk-level">信息提示</td>
+							<td><span>5</span><br> <span
+								class="additional-info-percentages">(41.7%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-11">现代 Web 应用程序</a></th>
+							<td class="risk-level">信息提示</td>
+							<td><span>5</span><br> <span
+								class="additional-info-percentages">(41.7%)</span></td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<th scope="row">Total</th>
+							<td></td>
+							<td>12</td>
+						</tr>
+					</tfoot>
+				</table>
+			</section>
+			
+			<section
+				id="insights">
+				<h3 class="left-header">Insights</h3>
+				<table class="insights-table">
+						<caption>
+						<p>This table shows information that is likely to be very relevant to you, but which is not related to vulnerabilities, or potentially even related to the application in question.</p>
+					</caption>
+					<thead>
+					<tr>
+						<th scope="col">Level</th>
+						<th scope="col">Reason</th>
+						<th scope="col">Site</th>
+						<th scope="col">Description</th>
+						<th scope="col">Statistic</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+						<td class="risk-3">
+							<div>High</div>
+						</td>
+						<td>
+							<div>Exceeded High</div>
+						</td>
+						<td>
+							<div></div>
+						</td>
+						<td>
+							<div>Percentage of memory used</div>
+						</td>
+						<td align="center">
+							<div>96   </div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-1">
+							<div>Low</div>
+						</td>
+						<td>
+							<div>Warning</div>
+						</td>
+						<td>
+							<div></div>
+						</td>
+						<td>
+							<div>ZAP warnings logged - see the zap.log file for details</div>
+						</td>
+						<td align="center">
+							<div>1   </div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-1">
+							<div>Low</div>
+						</td>
+						<td>
+							<div>Exceeded High</div>
+						</td>
+						<td>
+							<div>https://restful-booker.herokuapp.com</div>
+						</td>
+						<td>
+							<div>Percentage of slow responses</div>
+						</td>
+						<td align="center">
+							<div>100 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Info</div>
+						</td>
+						<td>
+							<div>Informational</div>
+						</td>
+						<td>
+							<div></div>
+						</td>
+						<td>
+							<div>Percentage of network failures</div>
+						</td>
+						<td align="center">
+							<div>25 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Info</div>
+						</td>
+						<td>
+							<div>Informational</div>
+						</td>
+						<td>
+							<div>https://restful-booker.herokuapp.com</div>
+						</td>
+						<td>
+							<div>Percentage of responses with status code 2xx</div>
+						</td>
+						<td align="center">
+							<div>99 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Info</div>
+						</td>
+						<td>
+							<div>Informational</div>
+						</td>
+						<td>
+							<div>https://restful-booker.herokuapp.com</div>
+						</td>
+						<td>
+							<div>Percentage of responses with status code 3xx</div>
+						</td>
+						<td align="center">
+							<div>1 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Info</div>
+						</td>
+						<td>
+							<div>Informational</div>
+						</td>
+						<td>
+							<div>https://restful-booker.herokuapp.com</div>
+						</td>
+						<td>
+							<div>Percentage of responses with status code 4xx</div>
+						</td>
+						<td align="center">
+							<div>1 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Info</div>
+						</td>
+						<td>
+							<div>Informational</div>
+						</td>
+						<td>
+							<div>https://restful-booker.herokuapp.com</div>
+						</td>
+						<td>
+							<div>Percentage of endpoints with content type image/jpeg</div>
+						</td>
+						<td align="center">
+							<div>1 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Info</div>
+						</td>
+						<td>
+							<div>Informational</div>
+						</td>
+						<td>
+							<div>https://restful-booker.herokuapp.com</div>
+						</td>
+						<td>
+							<div>Percentage of endpoints with content type image/png</div>
+						</td>
+						<td align="center">
+							<div>1 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Info</div>
+						</td>
+						<td>
+							<div>Informational</div>
+						</td>
+						<td>
+							<div>https://restful-booker.herokuapp.com</div>
+						</td>
+						<td>
+							<div>Percentage of endpoints with content type image/vnd.microsoft.icon</div>
+						</td>
+						<td align="center">
+							<div>1 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Info</div>
+						</td>
+						<td>
+							<div>Informational</div>
+						</td>
+						<td>
+							<div>https://restful-booker.herokuapp.com</div>
+						</td>
+						<td>
+							<div>Percentage of endpoints with content type text/css</div>
+						</td>
+						<td align="center">
+							<div>2 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Info</div>
+						</td>
+						<td>
+							<div>Informational</div>
+						</td>
+						<td>
+							<div>https://restful-booker.herokuapp.com</div>
+						</td>
+						<td>
+							<div>Percentage of endpoints with content type text/html</div>
+						</td>
+						<td align="center">
+							<div>75 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Info</div>
+						</td>
+						<td>
+							<div>Informational</div>
+						</td>
+						<td>
+							<div>https://restful-booker.herokuapp.com</div>
+						</td>
+						<td>
+							<div>Percentage of endpoints with content type text/javascript</div>
+						</td>
+						<td align="center">
+							<div>1 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Info</div>
+						</td>
+						<td>
+							<div>Informational</div>
+						</td>
+						<td>
+							<div>https://restful-booker.herokuapp.com</div>
+						</td>
+						<td>
+							<div>Percentage of endpoints with content type text/plain</div>
+						</td>
+						<td align="center">
+							<div>16 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Info</div>
+						</td>
+						<td>
+							<div>Informational</div>
+						</td>
+						<td>
+							<div>https://restful-booker.herokuapp.com</div>
+						</td>
+						<td>
+							<div>Percentage of endpoints with method GET</div>
+						</td>
+						<td align="center">
+							<div>100 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Info</div>
+						</td>
+						<td>
+							<div>Informational</div>
+						</td>
+						<td>
+							<div>https://restful-booker.herokuapp.com</div>
+						</td>
+						<td>
+							<div>Count of total endpoints</div>
+						</td>
+						<td align="center">
+							<div>118   </div>
+						</td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</section>
+		</section>
+
+		<section id="alerts" class="alerts">
+			<h2>Alerts</h2>
+			<ol>
+				
+				 
+				 
+				
+				
+				<li id="alerts--risk-2-confidence-3">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">中</span>, <span>Confidence</span>=<span
+							class="confidence-level">高</span> <span>(3)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">https://restful-booker.herokuapp.com</span> <span>(3)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-0">CSP: Failure to Define Directive with No Fallback</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET https://restful-booker.herokuapp.com/apidoc/vendor</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/A05_2021-Security_Misconfiguration/">OWASP_2021_A05</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_QA_STD = </span>
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+				<li>
+					<span><a href="https://www.zaproxy.org/docs/desktop/addons/common-library/alerttags/#systemic">SYSTEMIC</a></span> 
+				</li>
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/693.html">CWE-693</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html">OWASP_2017_A06</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_DEV_STD = </span>
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The Content Security Policy fails to define one of the directives that has no fallback. Missing/excluding them is the same as allowing anything.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Other info</th>
+		<td> 
+<p>The directive(s): frame-ancestors, form-action is/are among the directives that do not fallback to default-src.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (271 bytes)</summary>
+				
+				<pre><code>GET https://restful-booker.herokuapp.com/apidoc/vendor HTTP/1.1
+host: restful-booker.herokuapp.com
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (823 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 301 Moved Permanently
+Content-Length: 163
+Content-Security-Policy: default-src &#39;none&#39;
+Content-Type: text/html; charset=UTF-8
+Date: Thu, 06 Aug 2026 08:01:31 GMT
+Location: /apidoc/vendor/
+Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=Ch34CbiBrUrzGTFVA%2Bp7DqWf25HDU%2BE%2F7SvD1Kmcn50%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1786003291&quot;}],&quot;max_age&quot;:3600}
+Reporting-Endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=Ch34CbiBrUrzGTFVA%2Bp7DqWf25HDU%2BE%2F7SvD1Kmcn50%3D&amp;sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&amp;ts=1786003291&quot;
+Server: Heroku
+Via: 1.1 heroku-router
+X-Content-Type-Options: nosniff
+X-Powered-By: Express
+
+</code></pre>
+				
+				
+			</details> <details class="response-body" open="open">
+				<summary>Response body (163 bytes)</summary>
+				
+				<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;title&gt;Redirecting&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;pre&gt;Redirecting to /apidoc/vendor/&lt;/pre&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>Content-Security-Policy</code></pre></td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>default-src &#39;none&#39;</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Ensure that your web server, application server, load balancer, etc. is properly configured to set the Content-Security-Policy header.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-1">Content Security Policy (CSP) Header Not Set</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET https://restful-booker.herokuapp.com</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/693.html">CWE-693</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/Top10/A05_2021-Security_Misconfiguration/">OWASP_2021_A05</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html">OWASP_2017_A06</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_QA_STD = </span>
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+				<li>
+					<span><a href="https://www.zaproxy.org/docs/desktop/addons/common-library/alerttags/#systemic">SYSTEMIC</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page — covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (257 bytes)</summary>
+				
+				<pre><code>GET https://restful-booker.herokuapp.com HTTP/1.1
+host: restful-booker.herokuapp.com
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (822 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Cache-Control: public, max-age=0
+Content-Length: 4455
+Content-Type: text/html; charset=utf-8
+Date: Thu, 06 Aug 2026 08:00:36 GMT
+Etag: W/&quot;1167-19d2f3f2e38&quot;
+Last-Modified: Fri, 27 Mar 2026 12:22:43 GMT
+Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=P4t60ANkdlsHzWwthWOrI9m0QCqLgFsV6gdycJJv1BQ%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1786003236&quot;}],&quot;max_age&quot;:3600}
+Reporting-Endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=P4t60ANkdlsHzWwthWOrI9m0QCqLgFsV6gdycJJv1BQ%3D&amp;sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&amp;ts=1786003236&quot;
+Server: Heroku
+Via: 1.1 heroku-router
+X-Powered-By: Express
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (4455 bytes)</summary>
+				
+				<pre><code>&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Welcome to Restful-Booker&lt;/title&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+    &lt;link href=&quot;https://fonts.googleapis.com/css?family=Cabin&quot; rel=&quot;stylesheet&quot;&gt;
+    &lt;link href=&quot;https://fonts.googleapis.com/css?family=Muli&quot; rel=&quot;stylesheet&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css&quot;&gt;
+    &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+    &lt;style&gt;
+        h1, h2, h3, h4, h5 {
+            font-family: &#39;Cabin&#39;, Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        p {
+            font-size: 1.2em;
+            font-family: &#39;Muli&#39;, Arial, Helvetica, sans-serif;
+        }
+	&lt;/style&gt;
+
+  &lt;!-- Google tag (gtag.js) --&gt;
+  &lt;script async src=&quot;https://www.googletagmanager.com/gtag/js?id=G-2Q48X98CJ6&quot;&gt;&lt;/script&gt;
+  &lt;script&gt;
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag(&#39;js&#39;, new Date());
+
+    gtag(&#39;config&#39;, &#39;G-2Q48X98CJ6&#39;);
+  &lt;/script&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div class=&quot;jumbotron p-4&quot;&gt;
+      &lt;div class=&quot;container&quot;&gt;
+        &lt;div class=&quot;row&quot;&gt;
+          &lt;div class=&quot;col-12 text-center&quot;&gt;
+            &lt;h1&gt;Welcome to Restful-Booker&lt;/h1&gt;
+            &lt;p&gt;An API playground created by &lt;a href=&quot;http://mwtestconsultancy.co.uk/&quot;&gt;Mark Winteringham&lt;/a&gt; for those wanting to learn more about API testing and tools&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;row&quot;&gt;
+          &lt;div class=&quot;col-12 text-center&quot;&gt;
+            &lt;p&gt;&lt;a href=&quot;https://twitter.com/2bittester&quot; alt=&quot;Twitter&quot;&gt;@2bittester&lt;/a&gt; | &lt;a href=&quot;http://mwtestconsultancy.co.uk/&quot; alt=&quot;MWTestConsultancy Website&quot;&gt;Website&lt;/a&gt; | &lt;a href=&quot;https://github.com/mwinteringham/restful-booker&quot; alt=&quot;API Code&quot;&gt;Code&lt;/a&gt; | &lt;a href=&quot;/apidoc/index.html&quot; alt=&quot;API documentation&quot;&gt;API Docs&lt;/a&gt;&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;container&quot;&gt;
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-12&quot;&gt;
+        	&lt;p&gt;Welcome to Restful-booker an API that you can use to learn more about API Testing or try out API testing tools against. Restful-booker is a &lt;span style=&quot;color: red; font-weight: bold&quot;&gt;C&lt;/span&gt;reate &lt;span style=&quot;color: red; font-weight: bold&quot;&gt;R&lt;/span&gt;ead &lt;span style=&quot;color: red; font-weight: bold&quot;&gt;U&lt;/span&gt;pdate &lt;span style=&quot;color: red; font-weight: bold&quot;&gt;D&lt;/span&gt;elete Web API that comes with authentication features and loaded with a bunch of bugs for you to explore. The API comes pre-loaded with 10 records for you to work with &lt;span style=&quot;font-weight: bold&quot;&gt;and resets itself every 10 minutes back to that default state.&lt;/span&gt; Restful-booker also comes with &lt;a href=&quot;/apidoc/index.html&quot; alt=&quot;API documentation&quot;&gt;detailed API documentation&lt;/a&gt; to help get you started with your API testing straight away.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;row&quot;&gt;
+          &lt;div class=&quot;col-12&quot;&gt;
+				    &lt;h2&gt;Support me and Restful-Booker&lt;/h2&gt;
+				    &lt;br /&gt;
+				    &lt;p&gt;Restful-booker is a free to use API for practising testing, but if you enjoy using this API please consider supporting me by purchasing one of my books. Alternatively you can support &lt;a href=&quot;https://www.ministryoftesting.com/go-pro?utm_medium=web&amp;utm_source=restful-booker&quot; target=&quot;_blank&quot;&gt;Ministry of Testing&lt;/a&gt; who host this API by going Pro.&lt;/p&gt;
+          &lt;/div&gt;  
+      &lt;/div&gt;
+      &lt;div class=&quot;row text-center&quot;&gt;
+        &lt;div class=&quot;col-4&quot;&gt;
+            &lt;h4 class=&quot;pb-2&quot;&gt;Buy AI-Assisted Testing&lt;/h4&gt;
+            &lt;a href=&quot;https://bit.ly/ai-testing&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/ai-assisted-testing.jpg&quot; alt=&quot;Testing Web APIs&quot; class=&quot;img img-fluid w-50 border border-light&quot;&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;col-4&quot;&gt;
+          &lt;h4 class=&quot;pb-2&quot;&gt;Buy Testing Web APIs&lt;/h4&gt;
+          &lt;a href=&quot;https://bit.ly/testwebapis&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/testing-web-apis.jpg&quot; alt=&quot;Testing Web APIs&quot; class=&quot;img img-fluid w-50 border border-light&quot;&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;col-4&quot;&gt;
+            &lt;h4 class=&quot;pb-2&quot;&gt;Go Pro with Ministry of Testing&lt;/h4&gt;
+            &lt;a href=&quot;https://www.ministryoftesting.com/go-pro?utm_medium=web&amp;utm_source=restful-booker&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/motpro.png&quot; alt=&quot;Boost your learning, go Pro&quot; class=&quot;img img-fluid w-75&quot;&gt;&lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	
+	
+	
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Ensure that your web server, application server, load balancer, etc. is configured to set the Content-Security-Policy header.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-3">Sub Resource Integrity Attribute Missing</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET https://restful-booker.herokuapp.com</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/345.html">CWE-345</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/Top10/A05_2021-Security_Misconfiguration/">OWASP_2021_A05</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_QA_STD = </span>
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+				<li>
+					<span><a href="https://www.zaproxy.org/docs/desktop/addons/common-library/alerttags/#systemic">SYSTEMIC</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html">OWASP_2017_A06</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_DEV_STD = </span>
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The integrity attribute is missing on a script or link tag served by an external server. The integrity tag prevents an attacker who have gained access to this server from injecting a malicious content.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (257 bytes)</summary>
+				
+				<pre><code>GET https://restful-booker.herokuapp.com HTTP/1.1
+host: restful-booker.herokuapp.com
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (822 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Cache-Control: public, max-age=0
+Content-Length: 4455
+Content-Type: text/html; charset=utf-8
+Date: Thu, 06 Aug 2026 08:00:36 GMT
+Etag: W/&quot;1167-19d2f3f2e38&quot;
+Last-Modified: Fri, 27 Mar 2026 12:22:43 GMT
+Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=P4t60ANkdlsHzWwthWOrI9m0QCqLgFsV6gdycJJv1BQ%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1786003236&quot;}],&quot;max_age&quot;:3600}
+Reporting-Endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=P4t60ANkdlsHzWwthWOrI9m0QCqLgFsV6gdycJJv1BQ%3D&amp;sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&amp;ts=1786003236&quot;
+Server: Heroku
+Via: 1.1 heroku-router
+X-Powered-By: Express
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (4455 bytes)</summary>
+				
+				<pre><code>&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Welcome to Restful-Booker&lt;/title&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+    &lt;link href=&quot;https://fonts.googleapis.com/css?family=Cabin&quot; rel=&quot;stylesheet&quot;&gt;
+    &lt;link href=&quot;https://fonts.googleapis.com/css?family=Muli&quot; rel=&quot;stylesheet&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css&quot;&gt;
+    &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+    &lt;style&gt;
+        h1, h2, h3, h4, h5 {
+            font-family: &#39;Cabin&#39;, Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        p {
+            font-size: 1.2em;
+            font-family: &#39;Muli&#39;, Arial, Helvetica, sans-serif;
+        }
+	&lt;/style&gt;
+
+  &lt;!-- Google tag (gtag.js) --&gt;
+  &lt;script async src=&quot;https://www.googletagmanager.com/gtag/js?id=G-2Q48X98CJ6&quot;&gt;&lt;/script&gt;
+  &lt;script&gt;
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag(&#39;js&#39;, new Date());
+
+    gtag(&#39;config&#39;, &#39;G-2Q48X98CJ6&#39;);
+  &lt;/script&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div class=&quot;jumbotron p-4&quot;&gt;
+      &lt;div class=&quot;container&quot;&gt;
+        &lt;div class=&quot;row&quot;&gt;
+          &lt;div class=&quot;col-12 text-center&quot;&gt;
+            &lt;h1&gt;Welcome to Restful-Booker&lt;/h1&gt;
+            &lt;p&gt;An API playground created by &lt;a href=&quot;http://mwtestconsultancy.co.uk/&quot;&gt;Mark Winteringham&lt;/a&gt; for those wanting to learn more about API testing and tools&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;row&quot;&gt;
+          &lt;div class=&quot;col-12 text-center&quot;&gt;
+            &lt;p&gt;&lt;a href=&quot;https://twitter.com/2bittester&quot; alt=&quot;Twitter&quot;&gt;@2bittester&lt;/a&gt; | &lt;a href=&quot;http://mwtestconsultancy.co.uk/&quot; alt=&quot;MWTestConsultancy Website&quot;&gt;Website&lt;/a&gt; | &lt;a href=&quot;https://github.com/mwinteringham/restful-booker&quot; alt=&quot;API Code&quot;&gt;Code&lt;/a&gt; | &lt;a href=&quot;/apidoc/index.html&quot; alt=&quot;API documentation&quot;&gt;API Docs&lt;/a&gt;&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;container&quot;&gt;
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-12&quot;&gt;
+        	&lt;p&gt;Welcome to Restful-booker an API that you can use to learn more about API Testing or try out API testing tools against. Restful-booker is a &lt;span style=&quot;color: red; font-weight: bold&quot;&gt;C&lt;/span&gt;reate &lt;span style=&quot;color: red; font-weight: bold&quot;&gt;R&lt;/span&gt;ead &lt;span style=&quot;color: red; font-weight: bold&quot;&gt;U&lt;/span&gt;pdate &lt;span style=&quot;color: red; font-weight: bold&quot;&gt;D&lt;/span&gt;elete Web API that comes with authentication features and loaded with a bunch of bugs for you to explore. The API comes pre-loaded with 10 records for you to work with &lt;span style=&quot;font-weight: bold&quot;&gt;and resets itself every 10 minutes back to that default state.&lt;/span&gt; Restful-booker also comes with &lt;a href=&quot;/apidoc/index.html&quot; alt=&quot;API documentation&quot;&gt;detailed API documentation&lt;/a&gt; to help get you started with your API testing straight away.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;row&quot;&gt;
+          &lt;div class=&quot;col-12&quot;&gt;
+				    &lt;h2&gt;Support me and Restful-Booker&lt;/h2&gt;
+				    &lt;br /&gt;
+				    &lt;p&gt;Restful-booker is a free to use API for practising testing, but if you enjoy using this API please consider supporting me by purchasing one of my books. Alternatively you can support &lt;a href=&quot;https://www.ministryoftesting.com/go-pro?utm_medium=web&amp;utm_source=restful-booker&quot; target=&quot;_blank&quot;&gt;Ministry of Testing&lt;/a&gt; who host this API by going Pro.&lt;/p&gt;
+          &lt;/div&gt;  
+      &lt;/div&gt;
+      &lt;div class=&quot;row text-center&quot;&gt;
+        &lt;div class=&quot;col-4&quot;&gt;
+            &lt;h4 class=&quot;pb-2&quot;&gt;Buy AI-Assisted Testing&lt;/h4&gt;
+            &lt;a href=&quot;https://bit.ly/ai-testing&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/ai-assisted-testing.jpg&quot; alt=&quot;Testing Web APIs&quot; class=&quot;img img-fluid w-50 border border-light&quot;&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;col-4&quot;&gt;
+          &lt;h4 class=&quot;pb-2&quot;&gt;Buy Testing Web APIs&lt;/h4&gt;
+          &lt;a href=&quot;https://bit.ly/testwebapis&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/testing-web-apis.jpg&quot; alt=&quot;Testing Web APIs&quot; class=&quot;img img-fluid w-50 border border-light&quot;&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;col-4&quot;&gt;
+            &lt;h4 class=&quot;pb-2&quot;&gt;Go Pro with Ministry of Testing&lt;/h4&gt;
+            &lt;a href=&quot;https://www.ministryoftesting.com/go-pro?utm_medium=web&amp;utm_source=restful-booker&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/motpro.png&quot; alt=&quot;Boost your learning, go Pro&quot; class=&quot;img img-fluid w-75&quot;&gt;&lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>&lt;link href=&quot;https://fonts.googleapis.com/css?family=Cabin&quot; rel=&quot;stylesheet&quot;&gt;</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Provide a valid integrity attribute to the tag.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				
+				<li id="alerts--risk-2-confidence-2">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">中</span>, <span>Confidence</span>=<span
+							class="confidence-level">中</span> <span>(1)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">https://restful-booker.herokuapp.com</span> <span>(1)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-2">Missing Anti-clickjacking Header</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET https://restful-booker.herokuapp.com</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/A05_2021-Security_Misconfiguration/">OWASP_2021_A05</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_QA_STD = </span>
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/1021.html">CWE-1021</a></span> 
+				</li>
+				<li>
+					<span><a href="https://www.zaproxy.org/docs/desktop/addons/common-library/alerttags/#systemic">SYSTEMIC</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/11-Client-side_Testing/09-Testing_for_Clickjacking">WSTG-v42-CLNT-09</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html">OWASP_2017_A06</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The response does not protect against &#39;ClickJacking&#39; attacks. It should include either Content-Security-Policy with &#39;frame-ancestors&#39; directive or X-Frame-Options.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (257 bytes)</summary>
+				
+				<pre><code>GET https://restful-booker.herokuapp.com HTTP/1.1
+host: restful-booker.herokuapp.com
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (822 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Cache-Control: public, max-age=0
+Content-Length: 4455
+Content-Type: text/html; charset=utf-8
+Date: Thu, 06 Aug 2026 08:00:36 GMT
+Etag: W/&quot;1167-19d2f3f2e38&quot;
+Last-Modified: Fri, 27 Mar 2026 12:22:43 GMT
+Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=P4t60ANkdlsHzWwthWOrI9m0QCqLgFsV6gdycJJv1BQ%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1786003236&quot;}],&quot;max_age&quot;:3600}
+Reporting-Endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=P4t60ANkdlsHzWwthWOrI9m0QCqLgFsV6gdycJJv1BQ%3D&amp;sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&amp;ts=1786003236&quot;
+Server: Heroku
+Via: 1.1 heroku-router
+X-Powered-By: Express
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (4455 bytes)</summary>
+				
+				<pre><code>&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Welcome to Restful-Booker&lt;/title&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+    &lt;link href=&quot;https://fonts.googleapis.com/css?family=Cabin&quot; rel=&quot;stylesheet&quot;&gt;
+    &lt;link href=&quot;https://fonts.googleapis.com/css?family=Muli&quot; rel=&quot;stylesheet&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css&quot;&gt;
+    &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+    &lt;style&gt;
+        h1, h2, h3, h4, h5 {
+            font-family: &#39;Cabin&#39;, Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        p {
+            font-size: 1.2em;
+            font-family: &#39;Muli&#39;, Arial, Helvetica, sans-serif;
+        }
+	&lt;/style&gt;
+
+  &lt;!-- Google tag (gtag.js) --&gt;
+  &lt;script async src=&quot;https://www.googletagmanager.com/gtag/js?id=G-2Q48X98CJ6&quot;&gt;&lt;/script&gt;
+  &lt;script&gt;
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag(&#39;js&#39;, new Date());
+
+    gtag(&#39;config&#39;, &#39;G-2Q48X98CJ6&#39;);
+  &lt;/script&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div class=&quot;jumbotron p-4&quot;&gt;
+      &lt;div class=&quot;container&quot;&gt;
+        &lt;div class=&quot;row&quot;&gt;
+          &lt;div class=&quot;col-12 text-center&quot;&gt;
+            &lt;h1&gt;Welcome to Restful-Booker&lt;/h1&gt;
+            &lt;p&gt;An API playground created by &lt;a href=&quot;http://mwtestconsultancy.co.uk/&quot;&gt;Mark Winteringham&lt;/a&gt; for those wanting to learn more about API testing and tools&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;row&quot;&gt;
+          &lt;div class=&quot;col-12 text-center&quot;&gt;
+            &lt;p&gt;&lt;a href=&quot;https://twitter.com/2bittester&quot; alt=&quot;Twitter&quot;&gt;@2bittester&lt;/a&gt; | &lt;a href=&quot;http://mwtestconsultancy.co.uk/&quot; alt=&quot;MWTestConsultancy Website&quot;&gt;Website&lt;/a&gt; | &lt;a href=&quot;https://github.com/mwinteringham/restful-booker&quot; alt=&quot;API Code&quot;&gt;Code&lt;/a&gt; | &lt;a href=&quot;/apidoc/index.html&quot; alt=&quot;API documentation&quot;&gt;API Docs&lt;/a&gt;&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;container&quot;&gt;
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-12&quot;&gt;
+        	&lt;p&gt;Welcome to Restful-booker an API that you can use to learn more about API Testing or try out API testing tools against. Restful-booker is a &lt;span style=&quot;color: red; font-weight: bold&quot;&gt;C&lt;/span&gt;reate &lt;span style=&quot;color: red; font-weight: bold&quot;&gt;R&lt;/span&gt;ead &lt;span style=&quot;color: red; font-weight: bold&quot;&gt;U&lt;/span&gt;pdate &lt;span style=&quot;color: red; font-weight: bold&quot;&gt;D&lt;/span&gt;elete Web API that comes with authentication features and loaded with a bunch of bugs for you to explore. The API comes pre-loaded with 10 records for you to work with &lt;span style=&quot;font-weight: bold&quot;&gt;and resets itself every 10 minutes back to that default state.&lt;/span&gt; Restful-booker also comes with &lt;a href=&quot;/apidoc/index.html&quot; alt=&quot;API documentation&quot;&gt;detailed API documentation&lt;/a&gt; to help get you started with your API testing straight away.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;row&quot;&gt;
+          &lt;div class=&quot;col-12&quot;&gt;
+				    &lt;h2&gt;Support me and Restful-Booker&lt;/h2&gt;
+				    &lt;br /&gt;
+				    &lt;p&gt;Restful-booker is a free to use API for practising testing, but if you enjoy using this API please consider supporting me by purchasing one of my books. Alternatively you can support &lt;a href=&quot;https://www.ministryoftesting.com/go-pro?utm_medium=web&amp;utm_source=restful-booker&quot; target=&quot;_blank&quot;&gt;Ministry of Testing&lt;/a&gt; who host this API by going Pro.&lt;/p&gt;
+          &lt;/div&gt;  
+      &lt;/div&gt;
+      &lt;div class=&quot;row text-center&quot;&gt;
+        &lt;div class=&quot;col-4&quot;&gt;
+            &lt;h4 class=&quot;pb-2&quot;&gt;Buy AI-Assisted Testing&lt;/h4&gt;
+            &lt;a href=&quot;https://bit.ly/ai-testing&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/ai-assisted-testing.jpg&quot; alt=&quot;Testing Web APIs&quot; class=&quot;img img-fluid w-50 border border-light&quot;&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;col-4&quot;&gt;
+          &lt;h4 class=&quot;pb-2&quot;&gt;Buy Testing Web APIs&lt;/h4&gt;
+          &lt;a href=&quot;https://bit.ly/testwebapis&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/testing-web-apis.jpg&quot; alt=&quot;Testing Web APIs&quot; class=&quot;img img-fluid w-50 border border-light&quot;&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;col-4&quot;&gt;
+            &lt;h4 class=&quot;pb-2&quot;&gt;Go Pro with Ministry of Testing&lt;/h4&gt;
+            &lt;a href=&quot;https://www.ministryoftesting.com/go-pro?utm_medium=web&amp;utm_source=restful-booker&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/motpro.png&quot; alt=&quot;Boost your learning, go Pro&quot; class=&quot;img img-fluid w-75&quot;&gt;&lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>x-frame-options</code></pre></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Modern Web browsers support the Content-Security-Policy and X-Frame-Options HTTP headers. Ensure one of them is set on all web pages returned by your site/app.</p>
+
+<p>If you expect the page to be framed only by pages on your server (e.g. it&#39;s part of a FRAMESET) then you&#39;ll want to use SAMEORIGIN, otherwise if you never expect the page to be framed, you should use DENY. Alternatively consider implementing Content Security Policy&#39;s &quot;frame-ancestors&quot; directive.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				
+				
+				  
+				 
+				
+				
+				<li id="alerts--risk-1-confidence-3">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">低</span>, <span>Confidence</span>=<span
+							class="confidence-level">高</span> <span>(1)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">https://restful-booker.herokuapp.com</span> <span>(1)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-6">Strict-Transport-Security Header Not Set</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET https://restful-booker.herokuapp.com</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/A05_2021-Security_Misconfiguration/">OWASP_2021_A05</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html">OWASP_2017_A06</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_QA_STD = </span>
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+				<li>
+					<span><a href="https://www.zaproxy.org/docs/desktop/addons/common-library/alerttags/#systemic">SYSTEMIC</a></span> 
+				</li>
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/319.html">CWE-319</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>HTTP Strict Transport Security (HSTS) is a web security policy mechanism whereby a web server declares that complying user agents (such as a web browser) are to interact with it using only secure HTTPS connections (i.e. HTTP layered over TLS/SSL). HSTS is an IETF standards track protocol and is specified in RFC 6797.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (257 bytes)</summary>
+				
+				<pre><code>GET https://restful-booker.herokuapp.com HTTP/1.1
+host: restful-booker.herokuapp.com
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (822 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Cache-Control: public, max-age=0
+Content-Length: 4455
+Content-Type: text/html; charset=utf-8
+Date: Thu, 06 Aug 2026 08:00:36 GMT
+Etag: W/&quot;1167-19d2f3f2e38&quot;
+Last-Modified: Fri, 27 Mar 2026 12:22:43 GMT
+Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=P4t60ANkdlsHzWwthWOrI9m0QCqLgFsV6gdycJJv1BQ%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1786003236&quot;}],&quot;max_age&quot;:3600}
+Reporting-Endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=P4t60ANkdlsHzWwthWOrI9m0QCqLgFsV6gdycJJv1BQ%3D&amp;sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&amp;ts=1786003236&quot;
+Server: Heroku
+Via: 1.1 heroku-router
+X-Powered-By: Express
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (4455 bytes)</summary>
+				
+				<pre><code>&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Welcome to Restful-Booker&lt;/title&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+    &lt;link href=&quot;https://fonts.googleapis.com/css?family=Cabin&quot; rel=&quot;stylesheet&quot;&gt;
+    &lt;link href=&quot;https://fonts.googleapis.com/css?family=Muli&quot; rel=&quot;stylesheet&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css&quot;&gt;
+    &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+    &lt;style&gt;
+        h1, h2, h3, h4, h5 {
+            font-family: &#39;Cabin&#39;, Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        p {
+            font-size: 1.2em;
+            font-family: &#39;Muli&#39;, Arial, Helvetica, sans-serif;
+        }
+	&lt;/style&gt;
+
+  &lt;!-- Google tag (gtag.js) --&gt;
+  &lt;script async src=&quot;https://www.googletagmanager.com/gtag/js?id=G-2Q48X98CJ6&quot;&gt;&lt;/script&gt;
+  &lt;script&gt;
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag(&#39;js&#39;, new Date());
+
+    gtag(&#39;config&#39;, &#39;G-2Q48X98CJ6&#39;);
+  &lt;/script&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div class=&quot;jumbotron p-4&quot;&gt;
+      &lt;div class=&quot;container&quot;&gt;
+        &lt;div class=&quot;row&quot;&gt;
+          &lt;div class=&quot;col-12 text-center&quot;&gt;
+            &lt;h1&gt;Welcome to Restful-Booker&lt;/h1&gt;
+            &lt;p&gt;An API playground created by &lt;a href=&quot;http://mwtestconsultancy.co.uk/&quot;&gt;Mark Winteringham&lt;/a&gt; for those wanting to learn more about API testing and tools&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;row&quot;&gt;
+          &lt;div class=&quot;col-12 text-center&quot;&gt;
+            &lt;p&gt;&lt;a href=&quot;https://twitter.com/2bittester&quot; alt=&quot;Twitter&quot;&gt;@2bittester&lt;/a&gt; | &lt;a href=&quot;http://mwtestconsultancy.co.uk/&quot; alt=&quot;MWTestConsultancy Website&quot;&gt;Website&lt;/a&gt; | &lt;a href=&quot;https://github.com/mwinteringham/restful-booker&quot; alt=&quot;API Code&quot;&gt;Code&lt;/a&gt; | &lt;a href=&quot;/apidoc/index.html&quot; alt=&quot;API documentation&quot;&gt;API Docs&lt;/a&gt;&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;container&quot;&gt;
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-12&quot;&gt;
+        	&lt;p&gt;Welcome to Restful-booker an API that you can use to learn more about API Testing or try out API testing tools against. Restful-booker is a &lt;span style=&quot;color: red; font-weight: bold&quot;&gt;C&lt;/span&gt;reate &lt;span style=&quot;color: red; font-weight: bold&quot;&gt;R&lt;/span&gt;ead &lt;span style=&quot;color: red; font-weight: bold&quot;&gt;U&lt;/span&gt;pdate &lt;span style=&quot;color: red; font-weight: bold&quot;&gt;D&lt;/span&gt;elete Web API that comes with authentication features and loaded with a bunch of bugs for you to explore. The API comes pre-loaded with 10 records for you to work with &lt;span style=&quot;font-weight: bold&quot;&gt;and resets itself every 10 minutes back to that default state.&lt;/span&gt; Restful-booker also comes with &lt;a href=&quot;/apidoc/index.html&quot; alt=&quot;API documentation&quot;&gt;detailed API documentation&lt;/a&gt; to help get you started with your API testing straight away.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;row&quot;&gt;
+          &lt;div class=&quot;col-12&quot;&gt;
+				    &lt;h2&gt;Support me and Restful-Booker&lt;/h2&gt;
+				    &lt;br /&gt;
+				    &lt;p&gt;Restful-booker is a free to use API for practising testing, but if you enjoy using this API please consider supporting me by purchasing one of my books. Alternatively you can support &lt;a href=&quot;https://www.ministryoftesting.com/go-pro?utm_medium=web&amp;utm_source=restful-booker&quot; target=&quot;_blank&quot;&gt;Ministry of Testing&lt;/a&gt; who host this API by going Pro.&lt;/p&gt;
+          &lt;/div&gt;  
+      &lt;/div&gt;
+      &lt;div class=&quot;row text-center&quot;&gt;
+        &lt;div class=&quot;col-4&quot;&gt;
+            &lt;h4 class=&quot;pb-2&quot;&gt;Buy AI-Assisted Testing&lt;/h4&gt;
+            &lt;a href=&quot;https://bit.ly/ai-testing&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/ai-assisted-testing.jpg&quot; alt=&quot;Testing Web APIs&quot; class=&quot;img img-fluid w-50 border border-light&quot;&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;col-4&quot;&gt;
+          &lt;h4 class=&quot;pb-2&quot;&gt;Buy Testing Web APIs&lt;/h4&gt;
+          &lt;a href=&quot;https://bit.ly/testwebapis&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/testing-web-apis.jpg&quot; alt=&quot;Testing Web APIs&quot; class=&quot;img img-fluid w-50 border border-light&quot;&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;col-4&quot;&gt;
+            &lt;h4 class=&quot;pb-2&quot;&gt;Go Pro with Ministry of Testing&lt;/h4&gt;
+            &lt;a href=&quot;https://www.ministryoftesting.com/go-pro?utm_medium=web&amp;utm_source=restful-booker&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/motpro.png&quot; alt=&quot;Boost your learning, go Pro&quot; class=&quot;img img-fluid w-75&quot;&gt;&lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	
+	
+	
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Ensure that your web server, application server, load balancer, etc. is configured to enforce Strict-Transport-Security.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				
+				<li id="alerts--risk-1-confidence-2">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">低</span>, <span>Confidence</span>=<span
+							class="confidence-level">中</span> <span>(3)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">https://restful-booker.herokuapp.com</span> <span>(3)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-4">Cross-Domain JavaScript Source File Inclusion</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET https://restful-booker.herokuapp.com</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/A08_2021-Software_and_Data_Integrity_Failures/">OWASP_2021_A08</a></span> 
+				</li>
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/829.html">CWE-829</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_QA_STD = </span>
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+				<li>
+					<span><a href="https://www.zaproxy.org/docs/desktop/addons/common-library/alerttags/#systemic">SYSTEMIC</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_DEV_STD = </span>
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The page includes one or more script files from a third-party domain.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (257 bytes)</summary>
+				
+				<pre><code>GET https://restful-booker.herokuapp.com HTTP/1.1
+host: restful-booker.herokuapp.com
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (822 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Cache-Control: public, max-age=0
+Content-Length: 4455
+Content-Type: text/html; charset=utf-8
+Date: Thu, 06 Aug 2026 08:00:36 GMT
+Etag: W/&quot;1167-19d2f3f2e38&quot;
+Last-Modified: Fri, 27 Mar 2026 12:22:43 GMT
+Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=P4t60ANkdlsHzWwthWOrI9m0QCqLgFsV6gdycJJv1BQ%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1786003236&quot;}],&quot;max_age&quot;:3600}
+Reporting-Endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=P4t60ANkdlsHzWwthWOrI9m0QCqLgFsV6gdycJJv1BQ%3D&amp;sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&amp;ts=1786003236&quot;
+Server: Heroku
+Via: 1.1 heroku-router
+X-Powered-By: Express
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (4455 bytes)</summary>
+				
+				<pre><code>&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Welcome to Restful-Booker&lt;/title&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+    &lt;link href=&quot;https://fonts.googleapis.com/css?family=Cabin&quot; rel=&quot;stylesheet&quot;&gt;
+    &lt;link href=&quot;https://fonts.googleapis.com/css?family=Muli&quot; rel=&quot;stylesheet&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css&quot;&gt;
+    &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+    &lt;style&gt;
+        h1, h2, h3, h4, h5 {
+            font-family: &#39;Cabin&#39;, Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        p {
+            font-size: 1.2em;
+            font-family: &#39;Muli&#39;, Arial, Helvetica, sans-serif;
+        }
+	&lt;/style&gt;
+
+  &lt;!-- Google tag (gtag.js) --&gt;
+  &lt;script async src=&quot;https://www.googletagmanager.com/gtag/js?id=G-2Q48X98CJ6&quot;&gt;&lt;/script&gt;
+  &lt;script&gt;
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag(&#39;js&#39;, new Date());
+
+    gtag(&#39;config&#39;, &#39;G-2Q48X98CJ6&#39;);
+  &lt;/script&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div class=&quot;jumbotron p-4&quot;&gt;
+      &lt;div class=&quot;container&quot;&gt;
+        &lt;div class=&quot;row&quot;&gt;
+          &lt;div class=&quot;col-12 text-center&quot;&gt;
+            &lt;h1&gt;Welcome to Restful-Booker&lt;/h1&gt;
+            &lt;p&gt;An API playground created by &lt;a href=&quot;http://mwtestconsultancy.co.uk/&quot;&gt;Mark Winteringham&lt;/a&gt; for those wanting to learn more about API testing and tools&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;row&quot;&gt;
+          &lt;div class=&quot;col-12 text-center&quot;&gt;
+            &lt;p&gt;&lt;a href=&quot;https://twitter.com/2bittester&quot; alt=&quot;Twitter&quot;&gt;@2bittester&lt;/a&gt; | &lt;a href=&quot;http://mwtestconsultancy.co.uk/&quot; alt=&quot;MWTestConsultancy Website&quot;&gt;Website&lt;/a&gt; | &lt;a href=&quot;https://github.com/mwinteringham/restful-booker&quot; alt=&quot;API Code&quot;&gt;Code&lt;/a&gt; | &lt;a href=&quot;/apidoc/index.html&quot; alt=&quot;API documentation&quot;&gt;API Docs&lt;/a&gt;&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;container&quot;&gt;
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-12&quot;&gt;
+        	&lt;p&gt;Welcome to Restful-booker an API that you can use to learn more about API Testing or try out API testing tools against. Restful-booker is a &lt;span style=&quot;color: red; font-weight: bold&quot;&gt;C&lt;/span&gt;reate &lt;span style=&quot;color: red; font-weight: bold&quot;&gt;R&lt;/span&gt;ead &lt;span style=&quot;color: red; font-weight: bold&quot;&gt;U&lt;/span&gt;pdate &lt;span style=&quot;color: red; font-weight: bold&quot;&gt;D&lt;/span&gt;elete Web API that comes with authentication features and loaded with a bunch of bugs for you to explore. The API comes pre-loaded with 10 records for you to work with &lt;span style=&quot;font-weight: bold&quot;&gt;and resets itself every 10 minutes back to that default state.&lt;/span&gt; Restful-booker also comes with &lt;a href=&quot;/apidoc/index.html&quot; alt=&quot;API documentation&quot;&gt;detailed API documentation&lt;/a&gt; to help get you started with your API testing straight away.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;row&quot;&gt;
+          &lt;div class=&quot;col-12&quot;&gt;
+				    &lt;h2&gt;Support me and Restful-Booker&lt;/h2&gt;
+				    &lt;br /&gt;
+				    &lt;p&gt;Restful-booker is a free to use API for practising testing, but if you enjoy using this API please consider supporting me by purchasing one of my books. Alternatively you can support &lt;a href=&quot;https://www.ministryoftesting.com/go-pro?utm_medium=web&amp;utm_source=restful-booker&quot; target=&quot;_blank&quot;&gt;Ministry of Testing&lt;/a&gt; who host this API by going Pro.&lt;/p&gt;
+          &lt;/div&gt;  
+      &lt;/div&gt;
+      &lt;div class=&quot;row text-center&quot;&gt;
+        &lt;div class=&quot;col-4&quot;&gt;
+            &lt;h4 class=&quot;pb-2&quot;&gt;Buy AI-Assisted Testing&lt;/h4&gt;
+            &lt;a href=&quot;https://bit.ly/ai-testing&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/ai-assisted-testing.jpg&quot; alt=&quot;Testing Web APIs&quot; class=&quot;img img-fluid w-50 border border-light&quot;&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;col-4&quot;&gt;
+          &lt;h4 class=&quot;pb-2&quot;&gt;Buy Testing Web APIs&lt;/h4&gt;
+          &lt;a href=&quot;https://bit.ly/testwebapis&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/testing-web-apis.jpg&quot; alt=&quot;Testing Web APIs&quot; class=&quot;img img-fluid w-50 border border-light&quot;&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;col-4&quot;&gt;
+            &lt;h4 class=&quot;pb-2&quot;&gt;Go Pro with Ministry of Testing&lt;/h4&gt;
+            &lt;a href=&quot;https://www.ministryoftesting.com/go-pro?utm_medium=web&amp;utm_source=restful-booker&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/motpro.png&quot; alt=&quot;Boost your learning, go Pro&quot; class=&quot;img img-fluid w-75&quot;&gt;&lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js</code></pre></td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>&lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js&quot;&gt;&lt;/script&gt;</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Ensure JavaScript source files are loaded from only trusted sources, and the sources can&#39;t be controlled by end users of the application.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-5">Server Leaks Information via &quot;X-Powered-By&quot; HTTP Response Header Field(s)</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET https://restful-booker.herokuapp.com</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/A01_2021-Broken_Access_Control/">OWASP_2021_A01</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/01-Information_Gathering/08-Fingerprint_Web_Application_Framework">WSTG-v42-INFO-08</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_QA_STD = </span>
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+				<li>
+					<span><a href="https://www.zaproxy.org/docs/desktop/addons/common-library/alerttags/#systemic">SYSTEMIC</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A3_2017-Sensitive_Data_Exposure.html">OWASP_2017_A03</a></span> 
+				</li>
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/497.html">CWE-497</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The web/application server is leaking information via one or more &quot;X-Powered-By&quot; HTTP response headers. Access to such information may facilitate attackers identifying other frameworks/components your web application is reliant upon and the vulnerabilities such components may be subject to.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (257 bytes)</summary>
+				
+				<pre><code>GET https://restful-booker.herokuapp.com HTTP/1.1
+host: restful-booker.herokuapp.com
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (822 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Cache-Control: public, max-age=0
+Content-Length: 4455
+Content-Type: text/html; charset=utf-8
+Date: Thu, 06 Aug 2026 08:00:36 GMT
+Etag: W/&quot;1167-19d2f3f2e38&quot;
+Last-Modified: Fri, 27 Mar 2026 12:22:43 GMT
+Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=P4t60ANkdlsHzWwthWOrI9m0QCqLgFsV6gdycJJv1BQ%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1786003236&quot;}],&quot;max_age&quot;:3600}
+Reporting-Endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=P4t60ANkdlsHzWwthWOrI9m0QCqLgFsV6gdycJJv1BQ%3D&amp;sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&amp;ts=1786003236&quot;
+Server: Heroku
+Via: 1.1 heroku-router
+X-Powered-By: Express
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (4455 bytes)</summary>
+				
+				<pre><code>&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Welcome to Restful-Booker&lt;/title&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+    &lt;link href=&quot;https://fonts.googleapis.com/css?family=Cabin&quot; rel=&quot;stylesheet&quot;&gt;
+    &lt;link href=&quot;https://fonts.googleapis.com/css?family=Muli&quot; rel=&quot;stylesheet&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css&quot;&gt;
+    &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+    &lt;style&gt;
+        h1, h2, h3, h4, h5 {
+            font-family: &#39;Cabin&#39;, Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        p {
+            font-size: 1.2em;
+            font-family: &#39;Muli&#39;, Arial, Helvetica, sans-serif;
+        }
+	&lt;/style&gt;
+
+  &lt;!-- Google tag (gtag.js) --&gt;
+  &lt;script async src=&quot;https://www.googletagmanager.com/gtag/js?id=G-2Q48X98CJ6&quot;&gt;&lt;/script&gt;
+  &lt;script&gt;
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag(&#39;js&#39;, new Date());
+
+    gtag(&#39;config&#39;, &#39;G-2Q48X98CJ6&#39;);
+  &lt;/script&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div class=&quot;jumbotron p-4&quot;&gt;
+      &lt;div class=&quot;container&quot;&gt;
+        &lt;div class=&quot;row&quot;&gt;
+          &lt;div class=&quot;col-12 text-center&quot;&gt;
+            &lt;h1&gt;Welcome to Restful-Booker&lt;/h1&gt;
+            &lt;p&gt;An API playground created by &lt;a href=&quot;http://mwtestconsultancy.co.uk/&quot;&gt;Mark Winteringham&lt;/a&gt; for those wanting to learn more about API testing and tools&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;row&quot;&gt;
+          &lt;div class=&quot;col-12 text-center&quot;&gt;
+            &lt;p&gt;&lt;a href=&quot;https://twitter.com/2bittester&quot; alt=&quot;Twitter&quot;&gt;@2bittester&lt;/a&gt; | &lt;a href=&quot;http://mwtestconsultancy.co.uk/&quot; alt=&quot;MWTestConsultancy Website&quot;&gt;Website&lt;/a&gt; | &lt;a href=&quot;https://github.com/mwinteringham/restful-booker&quot; alt=&quot;API Code&quot;&gt;Code&lt;/a&gt; | &lt;a href=&quot;/apidoc/index.html&quot; alt=&quot;API documentation&quot;&gt;API Docs&lt;/a&gt;&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;container&quot;&gt;
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-12&quot;&gt;
+        	&lt;p&gt;Welcome to Restful-booker an API that you can use to learn more about API Testing or try out API testing tools against. Restful-booker is a &lt;span style=&quot;color: red; font-weight: bold&quot;&gt;C&lt;/span&gt;reate &lt;span style=&quot;color: red; font-weight: bold&quot;&gt;R&lt;/span&gt;ead &lt;span style=&quot;color: red; font-weight: bold&quot;&gt;U&lt;/span&gt;pdate &lt;span style=&quot;color: red; font-weight: bold&quot;&gt;D&lt;/span&gt;elete Web API that comes with authentication features and loaded with a bunch of bugs for you to explore. The API comes pre-loaded with 10 records for you to work with &lt;span style=&quot;font-weight: bold&quot;&gt;and resets itself every 10 minutes back to that default state.&lt;/span&gt; Restful-booker also comes with &lt;a href=&quot;/apidoc/index.html&quot; alt=&quot;API documentation&quot;&gt;detailed API documentation&lt;/a&gt; to help get you started with your API testing straight away.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;row&quot;&gt;
+          &lt;div class=&quot;col-12&quot;&gt;
+				    &lt;h2&gt;Support me and Restful-Booker&lt;/h2&gt;
+				    &lt;br /&gt;
+				    &lt;p&gt;Restful-booker is a free to use API for practising testing, but if you enjoy using this API please consider supporting me by purchasing one of my books. Alternatively you can support &lt;a href=&quot;https://www.ministryoftesting.com/go-pro?utm_medium=web&amp;utm_source=restful-booker&quot; target=&quot;_blank&quot;&gt;Ministry of Testing&lt;/a&gt; who host this API by going Pro.&lt;/p&gt;
+          &lt;/div&gt;  
+      &lt;/div&gt;
+      &lt;div class=&quot;row text-center&quot;&gt;
+        &lt;div class=&quot;col-4&quot;&gt;
+            &lt;h4 class=&quot;pb-2&quot;&gt;Buy AI-Assisted Testing&lt;/h4&gt;
+            &lt;a href=&quot;https://bit.ly/ai-testing&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/ai-assisted-testing.jpg&quot; alt=&quot;Testing Web APIs&quot; class=&quot;img img-fluid w-50 border border-light&quot;&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;col-4&quot;&gt;
+          &lt;h4 class=&quot;pb-2&quot;&gt;Buy Testing Web APIs&lt;/h4&gt;
+          &lt;a href=&quot;https://bit.ly/testwebapis&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/testing-web-apis.jpg&quot; alt=&quot;Testing Web APIs&quot; class=&quot;img img-fluid w-50 border border-light&quot;&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;col-4&quot;&gt;
+            &lt;h4 class=&quot;pb-2&quot;&gt;Go Pro with Ministry of Testing&lt;/h4&gt;
+            &lt;a href=&quot;https://www.ministryoftesting.com/go-pro?utm_medium=web&amp;utm_source=restful-booker&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/motpro.png&quot; alt=&quot;Boost your learning, go Pro&quot; class=&quot;img img-fluid w-75&quot;&gt;&lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>X-Powered-By: Express</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Ensure that your web server, application server, load balancer, etc. is configured to suppress &quot;X-Powered-By&quot; headers.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-7">X-Content-Type-Options Header Missing</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET https://restful-booker.herokuapp.com</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/693.html">CWE-693</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/Top10/A05_2021-Security_Misconfiguration/">OWASP_2021_A05</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html">OWASP_2017_A06</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_QA_STD = </span>
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+				<li>
+					<span><a href="https://www.zaproxy.org/docs/desktop/addons/common-library/alerttags/#systemic">SYSTEMIC</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to &#39;nosniff&#39;. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Other info</th>
+		<td> 
+<p>This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.</p>
+
+<p>At &quot;High&quot; threshold this scan rule will not alert on client or server error responses.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (257 bytes)</summary>
+				
+				<pre><code>GET https://restful-booker.herokuapp.com HTTP/1.1
+host: restful-booker.herokuapp.com
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (822 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Cache-Control: public, max-age=0
+Content-Length: 4455
+Content-Type: text/html; charset=utf-8
+Date: Thu, 06 Aug 2026 08:00:36 GMT
+Etag: W/&quot;1167-19d2f3f2e38&quot;
+Last-Modified: Fri, 27 Mar 2026 12:22:43 GMT
+Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=P4t60ANkdlsHzWwthWOrI9m0QCqLgFsV6gdycJJv1BQ%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1786003236&quot;}],&quot;max_age&quot;:3600}
+Reporting-Endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=P4t60ANkdlsHzWwthWOrI9m0QCqLgFsV6gdycJJv1BQ%3D&amp;sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&amp;ts=1786003236&quot;
+Server: Heroku
+Via: 1.1 heroku-router
+X-Powered-By: Express
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (4455 bytes)</summary>
+				
+				<pre><code>&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Welcome to Restful-Booker&lt;/title&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+    &lt;link href=&quot;https://fonts.googleapis.com/css?family=Cabin&quot; rel=&quot;stylesheet&quot;&gt;
+    &lt;link href=&quot;https://fonts.googleapis.com/css?family=Muli&quot; rel=&quot;stylesheet&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css&quot;&gt;
+    &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+    &lt;style&gt;
+        h1, h2, h3, h4, h5 {
+            font-family: &#39;Cabin&#39;, Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        p {
+            font-size: 1.2em;
+            font-family: &#39;Muli&#39;, Arial, Helvetica, sans-serif;
+        }
+	&lt;/style&gt;
+
+  &lt;!-- Google tag (gtag.js) --&gt;
+  &lt;script async src=&quot;https://www.googletagmanager.com/gtag/js?id=G-2Q48X98CJ6&quot;&gt;&lt;/script&gt;
+  &lt;script&gt;
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag(&#39;js&#39;, new Date());
+
+    gtag(&#39;config&#39;, &#39;G-2Q48X98CJ6&#39;);
+  &lt;/script&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div class=&quot;jumbotron p-4&quot;&gt;
+      &lt;div class=&quot;container&quot;&gt;
+        &lt;div class=&quot;row&quot;&gt;
+          &lt;div class=&quot;col-12 text-center&quot;&gt;
+            &lt;h1&gt;Welcome to Restful-Booker&lt;/h1&gt;
+            &lt;p&gt;An API playground created by &lt;a href=&quot;http://mwtestconsultancy.co.uk/&quot;&gt;Mark Winteringham&lt;/a&gt; for those wanting to learn more about API testing and tools&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;row&quot;&gt;
+          &lt;div class=&quot;col-12 text-center&quot;&gt;
+            &lt;p&gt;&lt;a href=&quot;https://twitter.com/2bittester&quot; alt=&quot;Twitter&quot;&gt;@2bittester&lt;/a&gt; | &lt;a href=&quot;http://mwtestconsultancy.co.uk/&quot; alt=&quot;MWTestConsultancy Website&quot;&gt;Website&lt;/a&gt; | &lt;a href=&quot;https://github.com/mwinteringham/restful-booker&quot; alt=&quot;API Code&quot;&gt;Code&lt;/a&gt; | &lt;a href=&quot;/apidoc/index.html&quot; alt=&quot;API documentation&quot;&gt;API Docs&lt;/a&gt;&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;container&quot;&gt;
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-12&quot;&gt;
+        	&lt;p&gt;Welcome to Restful-booker an API that you can use to learn more about API Testing or try out API testing tools against. Restful-booker is a &lt;span style=&quot;color: red; font-weight: bold&quot;&gt;C&lt;/span&gt;reate &lt;span style=&quot;color: red; font-weight: bold&quot;&gt;R&lt;/span&gt;ead &lt;span style=&quot;color: red; font-weight: bold&quot;&gt;U&lt;/span&gt;pdate &lt;span style=&quot;color: red; font-weight: bold&quot;&gt;D&lt;/span&gt;elete Web API that comes with authentication features and loaded with a bunch of bugs for you to explore. The API comes pre-loaded with 10 records for you to work with &lt;span style=&quot;font-weight: bold&quot;&gt;and resets itself every 10 minutes back to that default state.&lt;/span&gt; Restful-booker also comes with &lt;a href=&quot;/apidoc/index.html&quot; alt=&quot;API documentation&quot;&gt;detailed API documentation&lt;/a&gt; to help get you started with your API testing straight away.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;row&quot;&gt;
+          &lt;div class=&quot;col-12&quot;&gt;
+				    &lt;h2&gt;Support me and Restful-Booker&lt;/h2&gt;
+				    &lt;br /&gt;
+				    &lt;p&gt;Restful-booker is a free to use API for practising testing, but if you enjoy using this API please consider supporting me by purchasing one of my books. Alternatively you can support &lt;a href=&quot;https://www.ministryoftesting.com/go-pro?utm_medium=web&amp;utm_source=restful-booker&quot; target=&quot;_blank&quot;&gt;Ministry of Testing&lt;/a&gt; who host this API by going Pro.&lt;/p&gt;
+          &lt;/div&gt;  
+      &lt;/div&gt;
+      &lt;div class=&quot;row text-center&quot;&gt;
+        &lt;div class=&quot;col-4&quot;&gt;
+            &lt;h4 class=&quot;pb-2&quot;&gt;Buy AI-Assisted Testing&lt;/h4&gt;
+            &lt;a href=&quot;https://bit.ly/ai-testing&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/ai-assisted-testing.jpg&quot; alt=&quot;Testing Web APIs&quot; class=&quot;img img-fluid w-50 border border-light&quot;&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;col-4&quot;&gt;
+          &lt;h4 class=&quot;pb-2&quot;&gt;Buy Testing Web APIs&lt;/h4&gt;
+          &lt;a href=&quot;https://bit.ly/testwebapis&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/testing-web-apis.jpg&quot; alt=&quot;Testing Web APIs&quot; class=&quot;img img-fluid w-50 border border-light&quot;&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;col-4&quot;&gt;
+            &lt;h4 class=&quot;pb-2&quot;&gt;Go Pro with Ministry of Testing&lt;/h4&gt;
+            &lt;a href=&quot;https://www.ministryoftesting.com/go-pro?utm_medium=web&amp;utm_source=restful-booker&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/motpro.png&quot; alt=&quot;Boost your learning, go Pro&quot; class=&quot;img img-fluid w-75&quot;&gt;&lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>x-content-type-options</code></pre></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Ensure that the application/web server sets the Content-Type header appropriately, and that it sets the X-Content-Type-Options header to &#39;nosniff&#39; for all web pages.</p>
+
+<p>If possible, ensure that the end user uses a standards-compliant and modern web browser that does not perform MIME-sniffing at all, or that can be directed by the web application/web server to not perform MIME-sniffing.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				
+				<li id="alerts--risk-1-confidence-1">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">低</span>, <span>Confidence</span>=<span
+							class="confidence-level">低</span> <span>(1)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">https://restful-booker.herokuapp.com</span> <span>(1)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-8">时间戳泄漏 - Unix</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET https://restful-booker.herokuapp.com</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/A01_2021-Broken_Access_Control/">OWASP_2021_A01</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A3_2017-Sensitive_Data_Exposure.html">OWASP_2017_A03</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/497.html">CWE-497</a></span> 
+				</li>
+				<li>
+					<span><a href="https://www.zaproxy.org/docs/desktop/addons/common-library/alerttags/#systemic">SYSTEMIC</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>A timestamp was disclosed by the application/web server. - Unix</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Other info</th>
+		<td> 
+<p>1786003236, which evaluates to: 2026-08-06 16:00:36.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (257 bytes)</summary>
+				
+				<pre><code>GET https://restful-booker.herokuapp.com HTTP/1.1
+host: restful-booker.herokuapp.com
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (822 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Cache-Control: public, max-age=0
+Content-Length: 4455
+Content-Type: text/html; charset=utf-8
+Date: Thu, 06 Aug 2026 08:00:36 GMT
+Etag: W/&quot;1167-19d2f3f2e38&quot;
+Last-Modified: Fri, 27 Mar 2026 12:22:43 GMT
+Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=P4t60ANkdlsHzWwthWOrI9m0QCqLgFsV6gdycJJv1BQ%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1786003236&quot;}],&quot;max_age&quot;:3600}
+Reporting-Endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=P4t60ANkdlsHzWwthWOrI9m0QCqLgFsV6gdycJJv1BQ%3D&amp;sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&amp;ts=1786003236&quot;
+Server: Heroku
+Via: 1.1 heroku-router
+X-Powered-By: Express
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (4455 bytes)</summary>
+				
+				<pre><code>&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Welcome to Restful-Booker&lt;/title&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+    &lt;link href=&quot;https://fonts.googleapis.com/css?family=Cabin&quot; rel=&quot;stylesheet&quot;&gt;
+    &lt;link href=&quot;https://fonts.googleapis.com/css?family=Muli&quot; rel=&quot;stylesheet&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css&quot;&gt;
+    &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+    &lt;style&gt;
+        h1, h2, h3, h4, h5 {
+            font-family: &#39;Cabin&#39;, Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        p {
+            font-size: 1.2em;
+            font-family: &#39;Muli&#39;, Arial, Helvetica, sans-serif;
+        }
+	&lt;/style&gt;
+
+  &lt;!-- Google tag (gtag.js) --&gt;
+  &lt;script async src=&quot;https://www.googletagmanager.com/gtag/js?id=G-2Q48X98CJ6&quot;&gt;&lt;/script&gt;
+  &lt;script&gt;
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag(&#39;js&#39;, new Date());
+
+    gtag(&#39;config&#39;, &#39;G-2Q48X98CJ6&#39;);
+  &lt;/script&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div class=&quot;jumbotron p-4&quot;&gt;
+      &lt;div class=&quot;container&quot;&gt;
+        &lt;div class=&quot;row&quot;&gt;
+          &lt;div class=&quot;col-12 text-center&quot;&gt;
+            &lt;h1&gt;Welcome to Restful-Booker&lt;/h1&gt;
+            &lt;p&gt;An API playground created by &lt;a href=&quot;http://mwtestconsultancy.co.uk/&quot;&gt;Mark Winteringham&lt;/a&gt; for those wanting to learn more about API testing and tools&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;row&quot;&gt;
+          &lt;div class=&quot;col-12 text-center&quot;&gt;
+            &lt;p&gt;&lt;a href=&quot;https://twitter.com/2bittester&quot; alt=&quot;Twitter&quot;&gt;@2bittester&lt;/a&gt; | &lt;a href=&quot;http://mwtestconsultancy.co.uk/&quot; alt=&quot;MWTestConsultancy Website&quot;&gt;Website&lt;/a&gt; | &lt;a href=&quot;https://github.com/mwinteringham/restful-booker&quot; alt=&quot;API Code&quot;&gt;Code&lt;/a&gt; | &lt;a href=&quot;/apidoc/index.html&quot; alt=&quot;API documentation&quot;&gt;API Docs&lt;/a&gt;&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;container&quot;&gt;
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-12&quot;&gt;
+        	&lt;p&gt;Welcome to Restful-booker an API that you can use to learn more about API Testing or try out API testing tools against. Restful-booker is a &lt;span style=&quot;color: red; font-weight: bold&quot;&gt;C&lt;/span&gt;reate &lt;span style=&quot;color: red; font-weight: bold&quot;&gt;R&lt;/span&gt;ead &lt;span style=&quot;color: red; font-weight: bold&quot;&gt;U&lt;/span&gt;pdate &lt;span style=&quot;color: red; font-weight: bold&quot;&gt;D&lt;/span&gt;elete Web API that comes with authentication features and loaded with a bunch of bugs for you to explore. The API comes pre-loaded with 10 records for you to work with &lt;span style=&quot;font-weight: bold&quot;&gt;and resets itself every 10 minutes back to that default state.&lt;/span&gt; Restful-booker also comes with &lt;a href=&quot;/apidoc/index.html&quot; alt=&quot;API documentation&quot;&gt;detailed API documentation&lt;/a&gt; to help get you started with your API testing straight away.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;row&quot;&gt;
+          &lt;div class=&quot;col-12&quot;&gt;
+				    &lt;h2&gt;Support me and Restful-Booker&lt;/h2&gt;
+				    &lt;br /&gt;
+				    &lt;p&gt;Restful-booker is a free to use API for practising testing, but if you enjoy using this API please consider supporting me by purchasing one of my books. Alternatively you can support &lt;a href=&quot;https://www.ministryoftesting.com/go-pro?utm_medium=web&amp;utm_source=restful-booker&quot; target=&quot;_blank&quot;&gt;Ministry of Testing&lt;/a&gt; who host this API by going Pro.&lt;/p&gt;
+          &lt;/div&gt;  
+      &lt;/div&gt;
+      &lt;div class=&quot;row text-center&quot;&gt;
+        &lt;div class=&quot;col-4&quot;&gt;
+            &lt;h4 class=&quot;pb-2&quot;&gt;Buy AI-Assisted Testing&lt;/h4&gt;
+            &lt;a href=&quot;https://bit.ly/ai-testing&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/ai-assisted-testing.jpg&quot; alt=&quot;Testing Web APIs&quot; class=&quot;img img-fluid w-50 border border-light&quot;&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;col-4&quot;&gt;
+          &lt;h4 class=&quot;pb-2&quot;&gt;Buy Testing Web APIs&lt;/h4&gt;
+          &lt;a href=&quot;https://bit.ly/testwebapis&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/testing-web-apis.jpg&quot; alt=&quot;Testing Web APIs&quot; class=&quot;img img-fluid w-50 border border-light&quot;&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;col-4&quot;&gt;
+            &lt;h4 class=&quot;pb-2&quot;&gt;Go Pro with Ministry of Testing&lt;/h4&gt;
+            &lt;a href=&quot;https://www.ministryoftesting.com/go-pro?utm_medium=web&amp;utm_source=restful-booker&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/motpro.png&quot; alt=&quot;Boost your learning, go Pro&quot; class=&quot;img img-fluid w-75&quot;&gt;&lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>Reporting-Endpoints</code></pre></td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>1786003236</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Manually confirm that the timestamp data is not sensitive, and that the data cannot be aggregated to disclose exploitable patterns.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				  
+				 
+				
+				
+				
+				
+				<li id="alerts--risk-0-confidence-2">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">信息提示</span>, <span>Confidence</span>=<span
+							class="confidence-level">中</span> <span>(1)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">https://restful-booker.herokuapp.com</span> <span>(1)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-11">现代 Web 应用程序</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET https://restful-booker.herokuapp.com/apidoc/index.html</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					 <span>POLICY_QA_STD = </span>
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+				<li>
+					<span><a href="https://www.zaproxy.org/docs/desktop/addons/common-library/alerttags/#systemic">SYSTEMIC</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_DEV_STD = </span>
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Other info</th>
+		<td> 
+<p>No links have been found while there are scripts, which is an indication that this is a modern web application.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (322 bytes)</summary>
+				
+				<pre><code>GET https://restful-booker.herokuapp.com/apidoc/index.html HTTP/1.1
+host: restful-booker.herokuapp.com
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+referer: https://restful-booker.herokuapp.com
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (831 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Cache-Control: public, max-age=0
+Content-Length: 29292
+Content-Type: text/html; charset=utf-8
+Date: Thu, 06 Aug 2026 08:00:37 GMT
+Etag: W/&quot;726c-19d2f3f2e38&quot;
+Last-Modified: Fri, 27 Mar 2026 12:22:43 GMT
+Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=8g5eDH0VV%2BsObY1OpKCuJ%2FTnxELPNfl8IAwoVSreGDM%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1786003237&quot;}],&quot;max_age&quot;:3600}
+Reporting-Endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=8g5eDH0VV%2BsObY1OpKCuJ%2FTnxELPNfl8IAwoVSreGDM%3D&amp;sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&amp;ts=1786003237&quot;
+Server: Heroku
+Via: 1.1 heroku-router
+X-Powered-By: Express
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (29292 bytes)</summary>
+				
+				<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+  &lt;title&gt;Loading...&lt;/title&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+  &lt;link href=&quot;vendor/bootstrap.min.css&quot; rel=&quot;stylesheet&quot; media=&quot;screen&quot;&gt;
+  &lt;link href=&quot;vendor/prism.css&quot; rel=&quot;stylesheet&quot; /&gt;
+  &lt;link href=&quot;css/style.css&quot; rel=&quot;stylesheet&quot; media=&quot;screen, print&quot;&gt;
+  &lt;link href=&quot;img/favicon.ico&quot; rel=&quot;icon&quot; type=&quot;image/x-icon&quot;&gt;
+  &lt;script src=&quot;vendor/polyfill.js&quot;&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body class=&quot;container-fluid&quot;&gt;
+
+&lt;script id=&quot;template-sidenav&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+&lt;nav id=&quot;scrollingNav&quot;&gt;
+  &lt;div class=&quot;sidenav-search&quot;&gt;
+    &lt;input class=&quot;form-control search&quot; type=&quot;text&quot; placeholder=&quot;{{__ &quot;Filter...&quot;}}&quot;&gt;
+    &lt;span class=&quot;search-reset&quot;&gt;x&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;ul class=&quot;sidenav nav nav-list list&quot;&gt;
+  {{#each nav}}
+    {{#if title}}
+      {{#if isHeader}}
+        {{#if isFixed}}
+          &lt;li class=&quot;nav-fixed nav-header navbar-btn nav-list-item&quot; data-group=&quot;{{group}}&quot;&gt;&lt;a href=&quot;#api-{{group}}&quot; data-name=&quot;show-api-{{group}}&quot; class=&quot;show-api api-{{group}}-init&quot;&gt;{{underscoreToSpace title}}&lt;/a&gt;&lt;/li&gt;
+        {{else}}
+          &lt;li class=&quot;nav-header nav-list-item&quot; data-group=&quot;{{group}}&quot;&gt;&lt;a href=&quot;#api-{{group}}&quot; data-group=&quot;show-api-{{group}}&quot; class=&quot;show-group api-{{group}}-init&quot;&gt;{{underscoreToSpace title}}&lt;/a&gt;&lt;/li&gt;
+        {{/if}}
+      {{else}}
+        &lt;li class=&quot;{{#if hidden}}hide {{/if}}&quot; data-group=&quot;{{group}}&quot; data-name=&quot;{{name}}&quot; data-version=&quot;{{version}}&quot;&gt;
+          &lt;a href=&quot;#api-{{group}}-{{name}}&quot; title=&quot;{{url}}&quot; data-group=&quot;show-api-{{group}}&quot; data-name=&quot;show-api-{{group}}-{{name}}&quot; class=&quot;nav-list-item show-api api-{{group}}-{{name}}-init&quot;&gt;{{title}}&lt;div class=&quot;nav-list-url-item hide&quot;&gt;{{url}}&lt;/div&gt;&lt;/a&gt;
+        &lt;/li&gt;
+      {{/if}}
+    {{/if}}
+  {{/each}}
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/script&gt;
+
+&lt;script id=&quot;template-project&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  &lt;div class=&quot;pull-left&quot;&gt;
+    &lt;h1&gt;{{name}}&lt;/h1&gt;
+    {{#if description}}&lt;h2&gt;{{{nl2br description}}}&lt;/h2&gt;{{/if}}
+  &lt;/div&gt;
+  &lt;div class=&quot;pull-right&quot;&gt;
+    {{#if template.withCompare}}
+    &lt;div class=&quot;btn-group&quot;&gt;
+      &lt;button id=&quot;version&quot; class=&quot;btn btn-lg btn-default dropdown-toggle&quot; data-toggle=&quot;dropdown&quot;&gt;
+        &lt;strong&gt;{{version}}&lt;/strong&gt;&amp;nbsp;&lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;
+      &lt;/button&gt;
+      &lt;ul id=&quot;versions&quot; class=&quot;dropdown-menu open-left&quot;&gt;
+        &lt;li&gt;&lt;a id=&quot;compareAllWithPredecessor&quot; href=&quot;#&quot;&gt;{{__ &quot;Compare all with predecessor&quot;}}&lt;/a&gt;&lt;/li&gt;
+        &lt;li class=&quot;divider&quot;&gt;&lt;/li&gt;
+        &lt;li class=&quot;disabled&quot;&gt;&lt;a href=&quot;#&quot;&gt;{{__ &quot;show up to version:&quot;}}&lt;/a&gt;&lt;/li&gt;
+      {{#each versions}}
+        &lt;li class=&quot;version&quot;&gt;&lt;a href=&quot;#&quot;&gt;{{this}}&lt;/a&gt;&lt;/li&gt;
+      {{/each}}
+      &lt;/ul&gt;
+    &lt;/div&gt;
+    {{else}}
+    &lt;div id=&quot;version&quot; class=&quot;well well-sm&quot;&gt;
+      &lt;strong&gt;{{version}}&lt;/strong&gt;
+    &lt;/div&gt;
+    {{/if}}
+  &lt;/div&gt;
+  &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+&lt;/script&gt;
+
+&lt;script id=&quot;template-header&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  {{#if content}}
+    &lt;div id=&quot;api-_&quot; class=&quot;show-api-article show-api-_-article&quot;&gt;{{{content}}}&lt;/div&gt;
+  {{/if}}
+&lt;/script&gt;
+
+&lt;script id=&quot;template-footer&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  {{#if content}}
+    &lt;div id=&quot;api-_footer&quot; class=&quot;show-api-article show-api-_-article&quot;&gt;{{{content}}}&lt;/div&gt;
+  {{/if}}
+&lt;/script&gt;
+
+&lt;script id=&quot;template-generator&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  {{#if template.withGenerator}}
+    {{#if generator}}
+      &lt;div class=&quot;content&quot;&gt;
+        {{__ &quot;Generated with&quot;}} &lt;a href=&quot;{{{generator.url}}}&quot;&gt;{{{generator.name}}}&lt;/a&gt; {{{generator.version}}} - {{{generator.time}}}
+      &lt;/div&gt;
+    {{/if}}
+  {{/if}}
+&lt;/script&gt;
+
+&lt;script id=&quot;template-sections&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  &lt;section id=&quot;api-{{group}}&quot; class=&quot;show-api-group show-api-{{group}}-group {{#if aloneDisplay}} hide{{/if}}&quot;&gt;
+    &lt;h1&gt;{{underscoreToSpace title}}&lt;/h1&gt;
+    {{#if description}}
+      &lt;p&gt;{{{nl2br description}}}&lt;/p&gt;
+    {{/if}}
+    {{#each articles}}
+      &lt;div id=&quot;api-{{group}}-{{name}}&quot; class=&quot;show-api-article show-api-{{group}}-article show-api-{{group}}-{{name}}-article {{#if aloneDisplay}} hide{{/if}}&quot;&gt;
+        {{{article}}}
+      &lt;/div&gt;
+    {{/each}}
+  &lt;/section&gt;
+&lt;/script&gt;
+
+&lt;script id=&quot;template-article&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  &lt;article id=&quot;api-{{article.group}}-{{article.name}}-{{article.version}}&quot; {{#if hidden}}class=&quot;hide&quot;{{/if}} data-group=&quot;{{article.group}}&quot; data-name=&quot;{{article.name}}&quot; data-version=&quot;{{article.version}}&quot;&gt;
+    &lt;div class=&quot;pull-left&quot;&gt;
+      &lt;h1&gt;{{underscoreToSpace article.groupTitle}}{{#if article.title}} - {{article.title}}{{/if}}&lt;/h1&gt;
+    &lt;/div&gt;
+    {{#if template.withCompare}}
+    &lt;div class=&quot;pull-right&quot;&gt;
+      &lt;div class=&quot;btn-group&quot;&gt;
+        &lt;button class=&quot;version btn btn-default dropdown-toggle&quot; data-toggle=&quot;dropdown&quot;&gt;
+          &lt;strong&gt;{{article.version}}&lt;/strong&gt;&amp;nbsp;&lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;ul class=&quot;versions dropdown-menu open-left&quot;&gt;
+          &lt;li class=&quot;disabled&quot;&gt;&lt;a href=&quot;#&quot;&gt;{{__ &quot;compare changes to:&quot;}}&lt;/a&gt;&lt;/li&gt;
+        {{#each versions}}
+          &lt;li class=&quot;version&quot;&gt;&lt;a href=&quot;#&quot;&gt;{{this}}&lt;/a&gt;&lt;/li&gt;
+        {{/each}}
+        &lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    {{/if}}
+    &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+
+    {{#if article.author}}&lt;h4 class=&quot;muted&quot;&gt;Authored by: {{article.author}}&lt;/h4&gt;{{/if}}
+
+    {{#if article.deprecated}}
+      &lt;p class=&quot;deprecated&quot;&gt;&lt;span&gt;{{__ &quot;DEPRECATED&quot;}}&lt;/span&gt;
+        {{{markdown article.deprecated.content}}}
+      &lt;/p&gt;
+    {{/if}}
+
+    {{#if article.description}}
+      &lt;p&gt;{{{nl2br article.description}}}&lt;/p&gt;
+    {{/if}}
+    &lt;span class=&quot;type type__{{toLowerCase article.type}}&quot;&gt;{{toLowerCase article.type}}&lt;/span&gt;
+    &lt;pre data-type=&quot;{{toLowerCase article.type}}&quot;&gt;&lt;code class=&quot;language-http&quot;&gt;{{article.url}}&lt;/code&gt;&lt;/pre&gt;
+
+    {{#if article.permission}}
+      &lt;p&gt;
+        {{__ &quot;Permission:&quot;}}
+        {{#each article.permission}}
+          {{name}}
+          {{#if title}}
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-info btn-xs&quot; data-title=&quot;{{title}}&quot; data-content=&quot;{{nl2br description}}&quot; data-html=&quot;true&quot; data-toggle=&quot;popover&quot; data-placement=&quot;right&quot; data-trigger=&quot;hover&quot;&gt;
+              &lt;span class=&quot;glyphicon glyphicon-info-sign&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          {{/if}}
+        {{/each}}
+      &lt;/p&gt;
+    {{/if}}
+
+    {{!-- CODE EXAMPLES IN TABS --}}
+    {{#if_gt article.examples.length compare=0}}
+      &lt;ul class=&quot;nav nav-tabs nav-tabs-examples&quot;&gt;
+        {{#each article.examples}}
+          &lt;li{{#if_eq @index compare=0}} class=&quot;active&quot;{{/if_eq}}&gt;
+            &lt;a href=&quot;#examples-{{../id}}-{{@index}}&quot;&gt;{{title}}&lt;/a&gt;
+          &lt;/li&gt;
+        {{/each}}
+      &lt;/ul&gt;
+
+      &lt;div class=&quot;tab-content&quot;&gt;
+      {{#each article.examples}}
+        &lt;div class=&quot;tab-pane{{#if_eq @index compare=0}} active{{/if_eq}}&quot; id=&quot;examples-{{../id}}-{{@index}}&quot;&gt;
+          &lt;pre data-type=&quot;{{type}}&quot;&gt;&lt;code class=&quot;language-{{type}}&quot;&gt;{{content}}&lt;/code&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+      {{/each}}
+      &lt;/div&gt;
+    {{/if_gt}}
+
+    {{subTemplate &quot;article-param-block&quot; params=article.header _hasType=_hasTypeInHeaderFields section=&quot;header&quot;}}
+    {{subTemplate &quot;article-param-block&quot; params=article.parameter _hasType=_hasTypeInParameterFields section=&quot;parameter&quot;}}
+    {{subTemplate &quot;article-param-block&quot; params=article.success _hasType=_hasTypeInSuccessFields section=&quot;success&quot;}}
+    {{subTemplate &quot;article-param-block&quot; params=article.error _col1=&quot;Name&quot; _hasType=_hasTypeInErrorFields section=&quot;error&quot;}}
+
+    {{subTemplate &quot;article-sample-request&quot; article=article id=id}}
+  &lt;/article&gt;
+&lt;/script&gt;
+
+&lt;script id=&quot;template-article-param-block&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  {{#if params}}
+    {{#each params.fields}}
+      &lt;h2&gt;{{__ @key}}&lt;/h2&gt;
+      &lt;table&gt;
+        &lt;thead&gt;
+          &lt;tr&gt;
+          &lt;th style=&quot;width: 30%&quot;&gt;{{#if ../_col1}}{{__ ../_col1}}{{else}}{{__ &quot;Field&quot;}}{{/if}}&lt;/th&gt;
+            {{#if ../_hasType}}&lt;th style=&quot;width: 10%&quot;&gt;{{__ &quot;Type&quot;}}&lt;/th&gt;{{/if}}
+            &lt;th style=&quot;width: {{#if ../_hasType}}60%{{else}}70%{{/if}}&quot;&gt;{{__ &quot;Description&quot;}}&lt;/th&gt;
+          &lt;/tr&gt;
+        &lt;/thead&gt;
+        &lt;tbody&gt;
+        {{#each this}}
+          &lt;tr&gt;
+            &lt;td class=&quot;code&quot;&gt;{{{splitFill field &quot;.&quot; &quot;&amp;nbsp;&amp;nbsp;&quot;}}}{{#if optional}} &lt;span class=&quot;label label-optional&quot;&gt;{{__ &quot;optional&quot;}}&lt;/span&gt;{{/if}}&lt;/td&gt;
+            {{#if ../../_hasType}}
+              &lt;td&gt;
+                {{{type}}}
+              &lt;/td&gt;
+            {{/if}}
+            &lt;td&gt;
+            {{{nl2br description}}}
+            {{#if defaultValue}}&lt;p class=&quot;default-value&quot;&gt;{{__ &quot;Default value:&quot;}} &lt;code&gt;{{{defaultValue}}}&lt;/code&gt;&lt;/p&gt;{{/if}}
+            {{#if size}}&lt;p class=&quot;type-size&quot;&gt;{{__ &quot;Size range:&quot;}} &lt;code&gt;{{{size}}}&lt;/code&gt;&lt;/p&gt;{{/if}}
+            {{#if allowedValues}}&lt;p class=&quot;type-size&quot;&gt;{{__ &quot;Allowed values:&quot;}}
+              {{#each allowedValues}}
+                &lt;code&gt;{{{this}}}&lt;/code&gt;{{#unless @last}}, {{/unless}}
+              {{/each}}
+              &lt;/p&gt;
+            {{/if}}
+            &lt;/td&gt;
+          &lt;/tr&gt;
+        {{/each}}
+        &lt;/tbody&gt;
+      &lt;/table&gt;
+    {{/each}}
+    {{#if_gt params.examples.length compare=0}}
+      &lt;ul class=&quot;nav nav-tabs nav-tabs-examples&quot;&gt;
+      {{#each params.examples}}
+        &lt;li{{#if_eq @index compare=0}} class=&quot;active&quot;{{/if_eq}}&gt;
+          &lt;a href=&quot;#{{../section}}-examples-{{../id}}-{{@index}}&quot;&gt;{{title}}&lt;/a&gt;
+        &lt;/li&gt;
+      {{/each}}
+      &lt;/ul&gt;
+
+      &lt;div class=&quot;tab-content&quot;&gt;
+      {{#each params.examples}}
+        &lt;div class=&quot;tab-pane{{#if_eq @index compare=0}} active{{/if_eq}}&quot; id=&quot;{{../section}}-examples-{{../id}}-{{@index}}&quot;&gt;
+        &lt;pre data-type=&quot;{{type}}&quot;&gt;&lt;code class=&quot;language-{{type}}&quot;&gt;{{reformat content type}}&lt;/code&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+      {{/each}}
+      &lt;/div&gt;
+    {{/if_gt}}
+  {{/if}}
+&lt;/script&gt;
+
+&lt;script id=&quot;template-article-sample-request&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+    {{#if article.sampleRequest}}
+      &lt;h2&gt;{{__ &quot;Send a Sample Request&quot;}}&lt;/h2&gt;
+      &lt;form class=&quot;form-horizontal&quot;&gt;
+        &lt;fieldset&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label class=&quot;col-md-3 control-label&quot; for=&quot;{{../id}}-sample-request-url&quot;&gt;&lt;/label&gt;
+              &lt;div class=&quot;input-group&quot;&gt;
+                &lt;input id=&quot;{{../id}}-sample-request-url&quot; type=&quot;text&quot; class=&quot;form-control sample-request-url&quot; value=&quot;{{article.sampleRequest.0.url}}&quot; /&gt;
+                &lt;span class=&quot;input-group-addon&quot;&gt;{{__ &quot;url&quot;}}&lt;/span&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+
+      {{#if article.header}}
+        {{#if article.header.fields}}
+          &lt;h3&gt;{{__ &quot;Headers&quot;}}&lt;/h3&gt;
+          {{#each article.header.fields}}
+            &lt;h4&gt;&lt;input type=&quot;checkbox&quot; data-sample-request-header-group-id=&quot;sample-request-header-{{@index}}&quot; name=&quot;{{../id}}-sample-request-header&quot; value=&quot;{{@index}}&quot; class=&quot;sample-request-header sample-request-switch&quot; checked /&gt;{{__ @key}}&lt;/h4&gt;
+            &lt;div class=&quot;{{../id}}-sample-request-header-fields&quot;&gt;
+              {{#each this}}
+              &lt;div class=&quot;form-group&quot;&gt;
+                &lt;label class=&quot;col-md-3 control-label&quot; for=&quot;sample-request-header-field-{{field}}&quot;&gt;{{field}}&lt;/label&gt;
+                &lt;div class=&quot;input-group&quot;&gt;
+                  &lt;input type=&quot;text&quot; placeholder=&quot;{{field}}&quot; value=&quot;{{defaultValue}}&quot; id=&quot;sample-request-header-field-{{field}}&quot; class=&quot;form-control sample-request-header&quot; data-sample-request-header-name=&quot;{{field}}&quot; data-sample-request-header-group=&quot;sample-request-header-{{@../index}}&quot;&gt;
+                  &lt;span class=&quot;input-group-addon&quot;&gt;{{{type}}}&lt;/span&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+              {{/each}}
+            &lt;/div&gt;
+          {{/each}}
+        {{/if}}
+      {{/if}}
+
+      {{#if article.parameter}}
+        {{#if article.parameter.fields}}
+          &lt;h3&gt;{{__ &quot;Parameters&quot;}}&lt;/h3&gt;
+          {{#each article.parameter.fields}}
+            &lt;h4&gt;&lt;input type=&quot;checkbox&quot; data-sample-request-param-group-id=&quot;sample-request-param-{{@index}}&quot;  name=&quot;{{../id}}-sample-request-param&quot; value=&quot;{{@index}}&quot; class=&quot;sample-request-param sample-request-switch&quot; checked/&gt;{{__ @key}}
+              &lt;select   name=&quot;{{../id}}-sample-header-content-type&quot; class=&quot;{{../id}}-sample-request-param-select sample-header-content-type sample-header-content-type-switch&quot;&gt;
+                &lt;option value=&quot;undefined&quot;  selected&gt;ajax-auto&lt;/option&gt;
+                &lt;option value=&quot;body-json&quot; &gt;body/json&lt;/option&gt;
+                &lt;option value=&quot;body-form-data&quot; &gt;body/form-data&lt;/option&gt;
+              &lt;/select&gt;
+            &lt;/h4&gt;
+            &lt;div class=&quot;{{../id}}-sample-request-param-body {{../id}}-sample-header-content-type-body hide&quot;&gt;
+              &lt;div class=&quot;form-group&quot;&gt;
+                &lt;div class=&quot;input-group&quot;&gt;
+                  &lt;textarea id=&quot;sample-request-body-json&quot; class=&quot;form-control sample-request-body&quot; data-sample-request-body-group=&quot;sample-request-param-{{@./index}}&quot; rows=&quot;6&quot; style=&quot;OVERFLOW: visible&quot; {{#if optional}}data-sample-request-param-optional=&quot;true&quot;{{/if}}&gt;&lt;/textarea&gt;
+                  &lt;div class=&quot;input-group-addon&quot;&gt;json&lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;{{../id}}-sample-request-param-fields {{../id}}-sample-header-content-type-fields&quot;&gt;
+              {{#each this}}
+              &lt;div class=&quot;form-group&quot;&gt;
+                &lt;label class=&quot;col-md-3 control-label&quot; for=&quot;sample-request-param-field-{{field}}&quot;&gt;{{field}}&lt;/label&gt;
+                &lt;div class=&quot;input-group&quot;&gt;
+                  &lt;input id=&quot;sample-request-param-field-{{field}}&quot; type=&quot;{{setInputType type}}&quot; placeholder=&quot;{{field}}&quot; class=&quot;form-control sample-request-param&quot; data-sample-request-param-name=&quot;{{field}}&quot; data-sample-request-param-group=&quot;sample-request-param-{{@../index}}&quot; {{#if optional}}data-sample-request-param-optional=&quot;true&quot;{{/if}}&gt;
+                  &lt;div class=&quot;input-group-addon&quot;&gt;{{{type}}}&lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+              {{/each}}
+            &lt;/div&gt;
+          {{/each}}
+        {{/if}}
+      {{/if}}
+
+          &lt;div class=&quot;form-group&quot;&gt;
+            &lt;div class=&quot;controls pull-right&quot;&gt;
+              &lt;button class=&quot;btn btn-primary sample-request-send&quot; data-sample-request-type=&quot;{{article.type}}&quot;&gt;{{__ &quot;Send&quot;}}&lt;/button&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;form-group sample-request-response&quot; style=&quot;display: none;&quot;&gt;
+            &lt;h3&gt;
+              {{__ &quot;Response&quot;}}
+              &lt;button class=&quot;btn btn-default btn-xs pull-right sample-request-clear&quot;&gt;X&lt;/button&gt;
+            &lt;/h3&gt;
+            &lt;pre data-type=&quot;json&quot;&gt;&lt;code class=&quot;language-json sample-request-response-json&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
+          &lt;/div&gt;
+        &lt;/fieldset&gt;
+      &lt;/form&gt;
+    {{/if}}
+&lt;/script&gt;
+
+&lt;script id=&quot;template-compare-article&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  &lt;article id=&quot;api-{{article.group}}-{{article.name}}-{{article.version}}&quot; {{#if hidden}}class=&quot;hide&quot;{{/if}} data-group=&quot;{{article.group}}&quot; data-name=&quot;{{article.name}}&quot; data-version=&quot;{{article.version}}&quot; data-compare-version=&quot;{{compare.version}}&quot;&gt;
+    &lt;div class=&quot;pull-left&quot;&gt;
+      &lt;h1&gt;{{underscoreToSpace article.group}} - {{{showDiff article.title compare.title}}}&lt;/h1&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;pull-right&quot;&gt;
+      &lt;div class=&quot;btn-group&quot;&gt;
+        &lt;button class=&quot;btn btn-success&quot; disabled&gt;
+          &lt;strong&gt;{{article.version}}&lt;/strong&gt; {{__ &quot;compared to&quot;}}
+        &lt;/button&gt;
+        &lt;button class=&quot;version btn btn-danger dropdown-toggle&quot; data-toggle=&quot;dropdown&quot;&gt;
+          &lt;strong&gt;{{compare.version}}&lt;/strong&gt;&amp;nbsp;&lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;ul class=&quot;versions dropdown-menu open-left&quot;&gt;
+          &lt;li class=&quot;disabled&quot;&gt;&lt;a href=&quot;#&quot;&gt;{{__ &quot;compare changes to:&quot;}}&lt;/a&gt;&lt;/li&gt;
+          &lt;li class=&quot;divider&quot;&gt;&lt;/li&gt;
+        {{#each versions}}
+          &lt;li class=&quot;version&quot;&gt;&lt;a href=&quot;#&quot;&gt;{{this}}&lt;/a&gt;&lt;/li&gt;
+        {{/each}}
+        &lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+
+    {{#if article.description}}
+      &lt;p&gt;{{{showDiff article.description compare.description &quot;nl2br&quot;}}}&lt;/p&gt;
+    {{else}}
+      {{#if compare.description}}
+      &lt;p&gt;{{{showDiff &quot;&quot; compare.description &quot;nl2br&quot;}}}&lt;/p&gt;
+      {{/if}}
+    {{/if}}
+
+    &lt;pre data-type=&quot;{{toLowerCase article.type}}&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;{{{showDiff article.url compare.url}}}&lt;/code&gt;&lt;/pre&gt;
+
+    {{subTemplate &quot;article-compare-permission&quot; article=article compare=compare}}
+
+    &lt;ul class=&quot;nav nav-tabs nav-tabs-examples&quot;&gt;
+    {{#each_compare_title article.examples compare.examples}}
+      {{#if typeSame}}
+        &lt;li{{#if_eq index compare=0}} class=&quot;active&quot;{{/if_eq}}&gt;
+          &lt;a href=&quot;#compare-examples-{{../../article.id}}-{{index}}&quot;&gt;{{{showDiff source.title compare.title}}}&lt;/a&gt;
+        &lt;/li&gt;
+      {{/if}}
+
+      {{#if typeIns}}
+        &lt;li{{#if_eq index compare=0}} class=&quot;active&quot;{{/if_eq}}&gt;
+          &lt;a href=&quot;#compare-examples-{{../../article.id}}-{{index}}&quot;&gt;&lt;ins&gt;{{{source.title}}}&lt;/ins&gt;&lt;/a&gt;
+        &lt;/li&gt;
+      {{/if}}
+
+      {{#if typeDel}}
+        &lt;li{{#if_eq index compare=0}} class=&quot;active&quot;{{/if_eq}}&gt;
+          &lt;a href=&quot;#compare-examples-{{../../article.id}}-{{index}}&quot;&gt;&lt;del&gt;{{{compare.title}}}&lt;/del&gt;&lt;/a&gt;
+        &lt;/li&gt;
+      {{/if}}
+    {{/each_compare_title}}
+    &lt;/ul&gt;
+
+    &lt;div class=&quot;tab-content&quot;&gt;
+    {{#each_compare_title article.examples compare.examples}}
+
+      {{#if typeSame}}
+        &lt;div class=&quot;tab-pane{{#if_eq index compare=0}} active{{/if_eq}}&quot; id=&quot;compare-examples-{{../../article.id}}-{{index}}&quot;&gt;
+          &lt;pre data-type=&quot;{{source.type}}&quot;&gt;&lt;code class=&quot;language-{{source.type}}&quot;&gt;{{{showDiff source.content compare.content}}}&lt;/code&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+      {{/if}}
+
+      {{#if typeIns}}
+        &lt;div class=&quot;tab-pane{{#if_eq index compare=0}} active{{/if_eq}}&quot; id=&quot;compare-examples-{{../../article.id}}-{{index}}&quot;&gt;
+          &lt;pre data-type=&quot;{{source.type}}&quot;&gt;&lt;code class=&quot;language-{{source.type}}&quot;&gt;{{{source.content}}}&lt;/code&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+      {{/if}}
+
+      {{#if typeDel}}
+        &lt;div class=&quot;tab-pane{{#if_eq index compare=0}} active{{/if_eq}}&quot; id=&quot;compare-examples-{{../../article.id}}-{{index}}&quot;&gt;
+          &lt;pre data-type=&quot;{{compare.type}}&quot;&gt;&lt;code class=&quot;language-{{source.type}}&quot;&gt;{{{compare.content}}}&lt;/code&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+      {{/if}}
+
+    {{/each_compare_title}}
+    &lt;/div&gt;
+
+    {{subTemplate &quot;article-compare-param-block&quot; source=article.parameter compare=compare.parameter _hasType=_hasTypeInParameterFields section=&quot;parameter&quot;}}
+    {{subTemplate &quot;article-compare-param-block&quot; source=article.success compare=compare.success _hasType=_hasTypeInSuccessFields section=&quot;success&quot;}}
+    {{subTemplate &quot;article-compare-param-block&quot; source=article.error compare=compare.error _col1=&quot;Name&quot; _hasType=_hasTypeInErrorFields section=&quot;error&quot;}}
+
+    {{subTemplate &quot;article-sample-request&quot; article=article id=id}}
+
+  &lt;/article&gt;
+&lt;/script&gt;
+
+&lt;script id=&quot;template-article-compare-permission&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  &lt;p&gt;
+  {{__ &quot;Permission:&quot;}}
+  {{#each_compare_list_field article.permission compare.permission field=&quot;name&quot;}}
+    {{#if source}}
+      {{#if typeSame}}
+        {{source.name}}
+        {{#if source.title}}
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-info btn-xs&quot; data-title=&quot;{{source.title}}&quot; data-content=&quot;{{nl2br source.description}}&quot; data-html=&quot;true&quot; data-toggle=&quot;popover&quot; data-placement=&quot;right&quot; data-trigger=&quot;hover&quot;&gt;
+            &lt;span class=&quot;glyphicon glyphicon-info-sign&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          {{#unless _last}}, {{/unless}}
+        {{/if}}
+      {{/if}}
+
+      {{#if typeIns}}
+        &lt;ins&gt;{{source.name}}&lt;/ins&gt;
+        {{#if source.title}}
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-info btn-xs&quot; data-title=&quot;{{source.title}}&quot; data-content=&quot;{{nl2br source.description}}&quot; data-html=&quot;true&quot; data-toggle=&quot;popover&quot; data-placement=&quot;right&quot; data-trigger=&quot;hover&quot;&gt;
+            &lt;span class=&quot;glyphicon glyphicon-info-sign&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          {{#unless _last}}, {{/unless}}
+        {{/if}}
+      {{/if}}
+
+      {{#if typeDel}}
+        &lt;del&gt;{{source.name}}&lt;/del&gt;
+        {{#if source.title}}
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-info btn-xs&quot; data-title=&quot;{{source.title}}&quot; data-content=&quot;{{nl2br source.description}}&quot; data-html=&quot;true&quot; data-toggle=&quot;popover&quot; data-placement=&quot;right&quot; data-trigger=&quot;hover&quot;&gt;
+            &lt;span class=&quot;glyphicon glyphicon-info-sign&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          {{#unless _last}}, {{/unless}}
+        {{/if}}
+      {{/if}}
+    {{else}}
+      {{#if typeSame}}
+        {{compare.name}}
+        {{#if compare.title}}
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-info btn-xs&quot; data-title=&quot;{{compare.title}}&quot; data-content=&quot;{{nl2br compare.description}}&quot; data-html=&quot;true&quot; data-toggle=&quot;popover&quot; data-placement=&quot;right&quot; data-trigger=&quot;hover&quot;&gt;
+            &lt;span class=&quot;glyphicon glyphicon-info-sign&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          {{#unless _last}}, {{/unless}}
+        {{/if}}
+      {{/if}}
+
+      {{#if typeIns}}
+        &lt;ins&gt;{{compare.name}}&lt;/ins&gt;
+        {{#if compare.title}}
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-info btn-xs&quot; data-title=&quot;{{compare.title}}&quot; data-content=&quot;{{nl2br compare.description}}&quot; data-html=&quot;true&quot; data-toggle=&quot;popover&quot; data-placement=&quot;right&quot; data-trigger=&quot;hover&quot;&gt;
+            &lt;span class=&quot;glyphicon glyphicon-info-sign&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          {{#unless _last}}, {{/unless}}
+        {{/if}}
+      {{/if}}
+
+      {{#if typeDel}}
+        &lt;del&gt;{{compare.name}}&lt;/del&gt;
+        {{#if compare.title}}
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-info btn-xs&quot; data-title=&quot;{{compare.title}}&quot; data-content=&quot;{{nl2br compare.description}}&quot; data-html=&quot;true&quot; data-toggle=&quot;popover&quot; data-placement=&quot;right&quot; data-trigger=&quot;hover&quot;&gt;
+            &lt;span class=&quot;glyphicon glyphicon-info-sign&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          {{#unless _last}}, {{/unless}}
+        {{/if}}
+      {{/if}}
+    {{/if}}
+  {{/each_compare_list_field}}
+  &lt;/p&gt;
+&lt;/script&gt;
+
+&lt;script id=&quot;template-article-compare-param-block&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  {{#if source}}
+    {{#each_compare_keys source.fields compare.fields}}
+      {{#if typeSame}}
+        &lt;h2&gt;{{__ source.key}}&lt;/h2&gt;
+        &lt;table&gt;
+        &lt;thead&gt;
+          &lt;tr&gt;
+            &lt;th style=&quot;width: 30%&quot;&gt;{{#if ../_col1}}{{__ ../_col1}}{{else}}{{__ &quot;Field&quot;}}{{/if}}&lt;/th&gt;
+            {{#if ../_hasType}}&lt;th style=&quot;width: 10%&quot;&gt;{{__ &quot;Type&quot;}}&lt;/th&gt;{{/if}}
+            &lt;th style=&quot;width: {{#if ../_hasType}}60%{{else}}70%{{/if}}&quot;&gt;{{__ &quot;Description&quot;}}&lt;/th&gt;
+          &lt;/tr&gt;
+        &lt;/thead&gt;
+        {{subTemplate &quot;article-compare-param-block-body&quot; source=source.value compare=compare.value _hasType=../_hasType}}
+        &lt;/table&gt;
+      {{/if}}
+
+      {{#if typeIns}}
+        &lt;h2&gt;&lt;ins&gt;{{__ source.key}}&lt;/ins&gt;&lt;/h2&gt;
+        &lt;table class=&quot;ins&quot;&gt;
+        &lt;thead&gt;
+          &lt;tr&gt;
+            &lt;th style=&quot;width: 30%&quot;&gt;{{#if ../_col1}}{{__ ../_col1}}{{else}}{{__ &quot;Field&quot;}}{{/if}}&lt;/th&gt;
+            {{#if ../_hasType}}&lt;th style=&quot;width: 10%&quot;&gt;{{__ &quot;Type&quot;}}&lt;/th&gt;{{/if}}
+            &lt;th style=&quot;width: {{#if ../_hasType}}60%{{else}}70%{{/if}}&quot;&gt;{{__ &quot;Description&quot;}}&lt;/th&gt;
+          &lt;/tr&gt;
+        &lt;/thead&gt;
+        {{subTemplate &quot;article-compare-param-block-body&quot; source=source.value compare=source.value _hasType=../_hasType}}
+        &lt;/table&gt;
+      {{/if}}
+
+      {{#if typeDel}}
+        &lt;h2&gt;&lt;del&gt;{{__ compare.key}}&lt;/del&gt;&lt;/h2&gt;
+        &lt;table class=&quot;del&quot;&gt;
+        &lt;thead&gt;
+          &lt;tr&gt;
+            &lt;th style=&quot;width: 30%&quot;&gt;{{#if ../_col1}}{{__ ../_col1}}{{else}}{{__ &quot;Field&quot;}}{{/if}}&lt;/th&gt;
+            {{#if ../_hasType}}&lt;th style=&quot;width: 10%&quot;&gt;{{__ &quot;Type&quot;}}&lt;/th&gt;{{/if}}
+            &lt;th style=&quot;width: {{#if ../_hasType}}60%{{else}}70%{{/if}}&quot;&gt;{{__ &quot;Description&quot;}}&lt;/th&gt;
+          &lt;/tr&gt;
+        &lt;/thead&gt;
+        {{subTemplate &quot;article-compare-param-block-body&quot; source=compare.value compare=compare.value _hasType=../_hasType}}
+        &lt;/table&gt;
+      {{/if}}
+    {{/each_compare_keys}}
+
+    {{#if source.examples}}
+    &lt;ul class=&quot;nav nav-tabs nav-tabs-examples&quot;&gt;
+    {{#each_compare_title source.examples compare.examples}}
+      {{#if typeSame}}
+        &lt;li{{#if_eq index compare=0}} class=&quot;active&quot;{{/if_eq}}&gt;
+          &lt;a href=&quot;#{{../../section}}-compare-examples-{{../../article.id}}-{{index}}&quot;&gt;{{{showDiff source.title compare.title}}}&lt;/a&gt;
+        &lt;/li&gt;
+      {{/if}}
+
+      {{#if typeIns}}
+        &lt;li{{#if_eq index compare=0}} class=&quot;active&quot;{{/if_eq}}&gt;
+          &lt;a href=&quot;#{{../../section}}-compare-examples-{{../../article.id}}-{{index}}&quot;&gt;&lt;ins&gt;{{{source.title}}}&lt;/ins&gt;&lt;/a&gt;
+        &lt;/li&gt;
+      {{/if}}
+
+      {{#if typeDel}}
+        &lt;li{{#if_eq index compare=0}} class=&quot;active&quot;{{/if_eq}}&gt;
+          &lt;a href=&quot;#{{../../section}}-compare-examples-{{../../article.id}}-{{index}}&quot;&gt;&lt;del&gt;{{{compare.title}}}&lt;/del&gt;&lt;/a&gt;
+        &lt;/li&gt;
+      {{/if}}
+    {{/each_compare_title}}
+    &lt;/ul&gt;
+
+    &lt;div class=&quot;tab-content&quot;&gt;
+    {{#each_compare_title source.examples compare.examples}}
+
+      {{#if typeSame}}
+        &lt;div class=&quot;tab-pane{{#if_eq index compare=0}} active{{/if_eq}}&quot; id=&quot;{{../../section}}-compare-examples-{{../../article.id}}-{{index}}&quot;&gt;
+          &lt;pre data-type=&quot;{{source.type}}&quot;&gt;&lt;code class=&quot;language-{{source.type}}&quot;&gt;{{{showDiff source.content compare.content}}}&lt;/code&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+      {{/if}}
+
+      {{#if typeIns}}
+        &lt;div class=&quot;tab-pane{{#if_eq index compare=0}} active{{/if_eq}}&quot; id=&quot;{{../../section}}-compare-examples-{{../../article.id}}-{{index}}&quot;&gt;
+          &lt;pre data-type=&quot;{{source.type}}&quot;&gt;&lt;code class=&quot;language-{{source.type}}&quot;&gt;{{{source.content}}}&lt;/code&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+      {{/if}}
+
+      {{#if typeDel}}
+        &lt;div class=&quot;tab-pane{{#if_eq index compare=0}} active{{/if_eq}}&quot; id=&quot;{{../../section}}-compare-examples-{{../../article.id}}-{{index}}&quot;&gt;
+          &lt;pre data-type=&quot;{{compare.type}}&quot;&gt;&lt;code class=&quot;language-{{source.type}}&quot;&gt;{{{compare.content}}}&lt;/code&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+      {{/if}}
+    {{/each_compare_title}}
+    &lt;/div&gt;
+    {{/if}}
+  {{/if}}
+&lt;/script&gt;
+
+&lt;script id=&quot;template-article-compare-param-block-body&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  &lt;tbody&gt;
+    {{#each_compare_field source compare}}
+      {{#if typeSame}}
+        &lt;tr&gt;
+          &lt;td class=&quot;code&quot;&gt;
+            {{{splitFill source.field &quot;.&quot; &quot;&amp;nbsp;&amp;nbsp;&quot;}}}
+            {{#if source.optional}}
+              {{#if compare.optional}} &lt;span class=&quot;label label-optional&quot;&gt;{{__ &quot;optional&quot;}}&lt;/span&gt;
+              {{else}} &lt;span class=&quot;label label-optional label-ins&quot;&gt;{{__ &quot;optional&quot;}}&lt;/span&gt;
+              {{/if}}
+            {{else}}
+              {{#if compare.optional}} &lt;span class=&quot;label label-optional label-del&quot;&gt;{{__ &quot;optional&quot;}}&lt;/span&gt;{{/if}}
+            {{/if}}
+          &lt;/td&gt;
+
+        {{#if source.type}}
+          {{#if compare.type}}
+          &lt;td&gt;{{{showDiff source.type compare.type}}}&lt;/td&gt;
+          {{else}}
+          &lt;td&gt;{{{source.type}}}&lt;/td&gt;
+          {{/if}}
+        {{else}}
+          {{#if compare.type}}
+          &lt;td&gt;{{{compare.type}}}&lt;/td&gt;
+          {{else}}
+            {{#if ../../../../_hasType}}&lt;td&gt;&lt;/td&gt;{{/if}}
+          {{/if}}
+        {{/if}}
+          &lt;td&gt;
+            {{{showDiff source.description compare.description &quot;nl2br&quot;}}}
+            {{#if source.defaultValue}}&lt;p class=&quot;default-value&quot;&gt;{{__ &quot;Default value:&quot;}} &lt;code&gt;{{{showDiff source.defaultValue compare.defaultValue}}}&lt;/code&gt;&lt;p&gt;{{/if}}
+          &lt;/td&gt;
+        &lt;/tr&gt;
+      {{/if}}
+
+      {{#if typeIns}}
+        &lt;tr class=&quot;ins&quot;&gt;
+          &lt;td class=&quot;code&quot;&gt;
+            {{{splitFill source.field &quot;.&quot; &quot;&amp;nbsp;&amp;nbsp;&quot;}}}
+            {{#if source.optional}} &lt;span class=&quot;label label-optional label-ins&quot;&gt;{{__ &quot;optional&quot;}}&lt;/span&gt;{{/if}}
+          &lt;/td&gt;
+
+        {{#if source.type}}
+          &lt;td&gt;{{{source.type}}}&lt;/td&gt;
+        {{else}}
+          {{{typRowTd}}}
+        {{/if}}
+
+          &lt;td&gt;
+            {{{nl2br source.description}}}
+            {{#if source.defaultValue}}&lt;p class=&quot;default-value&quot;&gt;{{__ &quot;Default value:&quot;}} &lt;code&gt;{{{source.defaultValue}}}&lt;/code&gt;&lt;p&gt;{{/if}}
+          &lt;/td&gt;
+        &lt;/tr&gt;
+      {{/if}}
+
+      {{#if typeDel}}
+        &lt;tr class=&quot;del&quot;&gt;
+          &lt;td class=&quot;code&quot;&gt;
+            {{{splitFill compare.field &quot;.&quot; &quot;&amp;nbsp;&amp;nbsp;&quot;}}}
+            {{#if compare.optional}} &lt;span class=&quot;label label-optional label-del&quot;&gt;{{__ &quot;optional&quot;}}&lt;/span&gt;{{/if}}
+          &lt;/td&gt;
+
+        {{#if compare.type}}
+          &lt;td&gt;{{{compare.type}}}&lt;/td&gt;
+        {{else}}
+          {{{typRowTd}}}
+        {{/if}}
+
+          &lt;td&gt;
+            {{{nl2br compare.description}}}
+            {{#if compare.defaultValue}}&lt;p class=&quot;default-value&quot;&gt;{{__ &quot;Default value:&quot;}} &lt;code&gt;{{{compare.defaultValue}}}&lt;/code&gt;&lt;p&gt;{{/if}}
+          &lt;/td&gt;
+        &lt;/tr&gt;
+      {{/if}}
+
+    {{/each_compare_field}}
+  &lt;/tbody&gt;
+&lt;/script&gt;
+
+&lt;div class=&quot;container-fluid&quot;&gt;
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;div id=&quot;sidenav&quot; class=&quot;span2&quot;&gt;&lt;/div&gt;
+    &lt;div id=&quot;content&quot;&gt;
+      &lt;div id=&quot;project&quot;&gt;&lt;/div&gt;
+      &lt;div id=&quot;header&quot;&gt;&lt;/div&gt;
+      &lt;div id=&quot;sections&quot;&gt;&lt;/div&gt;
+      &lt;div id=&quot;footer&quot;&gt;&lt;/div&gt;
+      &lt;div id=&quot;generator&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;loader&quot;&gt;
+  &lt;div class=&quot;spinner&quot;&gt;
+    &lt;div class=&quot;spinner-container container1&quot;&gt;
+      &lt;div class=&quot;circle1&quot;&gt;&lt;/div&gt;&lt;div class=&quot;circle2&quot;&gt;&lt;/div&gt;&lt;div class=&quot;circle3&quot;&gt;&lt;/div&gt;&lt;div class=&quot;circle4&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;spinner-container container2&quot;&gt;
+      &lt;div class=&quot;circle1&quot;&gt;&lt;/div&gt;&lt;div class=&quot;circle2&quot;&gt;&lt;/div&gt;&lt;div class=&quot;circle3&quot;&gt;&lt;/div&gt;&lt;div class=&quot;circle4&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;spinner-container container3&quot;&gt;
+      &lt;div class=&quot;circle1&quot;&gt;&lt;/div&gt;&lt;div class=&quot;circle2&quot;&gt;&lt;/div&gt;&lt;div class=&quot;circle3&quot;&gt;&lt;/div&gt;&lt;div class=&quot;circle4&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;Loading...&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script data-main=&quot;main.js&quot; src=&quot;vendor/require.min.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>&lt;script src=&quot;vendor/polyfill.js&quot;&gt;&lt;/script&gt;</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>This is an informational alert and so no changes are required.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				
+				<li id="alerts--risk-0-confidence-1">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">信息提示</span>, <span>Confidence</span>=<span
+							class="confidence-level">低</span> <span>(2)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">https://restful-booker.herokuapp.com</span> <span>(2)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-9">Information Disclosure - Suspicious Comments</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET https://restful-booker.herokuapp.com/apidoc/vendor/polyfill.js</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/A01_2021-Broken_Access_Control/">OWASP_2021_A01</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/01-Information_Gathering/05-Review_Webpage_Content_for_Information_Leakage">WSTG-v42-INFO-05</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A3_2017-Sensitive_Data_Exposure.html">OWASP_2017_A03</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/615.html">CWE-615</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The response appears to contain suspicious comments which may help an attacker.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Other info</th>
+		<td> 
+<p>The following pattern was used: \bFROM\b and was detected in likely comment: &quot;// From https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys&quot;, see evidence field for the suspicious comment/snippet.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (348 bytes)</summary>
+				
+				<pre><code>GET https://restful-booker.herokuapp.com/apidoc/vendor/polyfill.js HTTP/1.1
+host: restful-booker.herokuapp.com
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+referer: https://restful-booker.herokuapp.com/apidoc/index.html
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (827 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Cache-Control: public, max-age=0
+Content-Length: 2900
+Content-Type: text/javascript; charset=utf-8
+Date: Thu, 06 Aug 2026 08:00:38 GMT
+Etag: W/&quot;b54-19d2f3f2e38&quot;
+Last-Modified: Fri, 27 Mar 2026 12:22:43 GMT
+Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=T7rsb9URIXFbcrP3O7wdi00cN0AdAAAO8X1XrVODLiI%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1786003238&quot;}],&quot;max_age&quot;:3600}
+Reporting-Endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=T7rsb9URIXFbcrP3O7wdi00cN0AdAAAO8X1XrVODLiI%3D&amp;sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&amp;ts=1786003238&quot;
+Server: Heroku
+Via: 1.1 heroku-router
+X-Powered-By: Express
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (2900 bytes)</summary>
+				
+				<pre><code>// From https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys
+if (!Object.keys) {
+  Object.keys = (function () {
+    &#39;use strict&#39;;
+    var hasOwnProperty = Object.prototype.hasOwnProperty,
+        hasDontEnumBug = !({toString: null}).propertyIsEnumerable(&#39;toString&#39;),
+        dontEnums = [
+          &#39;toString&#39;,
+          &#39;toLocaleString&#39;,
+          &#39;valueOf&#39;,
+          &#39;hasOwnProperty&#39;,
+          &#39;isPrototypeOf&#39;,
+          &#39;propertyIsEnumerable&#39;,
+          &#39;constructor&#39;
+        ],
+        dontEnumsLength = dontEnums.length;
+
+    return function (obj) {
+      if (typeof obj !== &#39;object&#39; &amp;&amp; (typeof obj !== &#39;function&#39; || obj === null)) {
+        throw new TypeError(&#39;Object.keys called on non-object&#39;);
+      }
+
+      var result = [], prop, i;
+
+      for (prop in obj) {
+        if (hasOwnProperty.call(obj, prop)) {
+          result.push(prop);
+        }
+      }
+
+      if (hasDontEnumBug) {
+        for (i = 0; i &lt; dontEnumsLength; i++) {
+          if (hasOwnProperty.call(obj, dontEnums[i])) {
+            result.push(dontEnums[i]);
+          }
+        }
+      }
+      return result;
+    };
+  }());
+}
+
+//Production steps of ECMA-262, Edition 5, 15.4.4.18
+//Reference: http://es5.github.com/#x15.4.4.18
+if (!Array.prototype.forEach) {
+  Array.prototype.forEach = function (callback, thisArg) {
+    var T, k;
+
+    if (this == null) {
+      throw new TypeError(&#39; this is null or not defined&#39;);
+    }
+
+    // 1. Let O be the result of calling ToObject passing the |this| value as the argument.
+    var O = Object(this);
+
+    // 2. Let lenValue be the result of calling the Get internal method of O with the argument &quot;length&quot;.
+    // 3. Let len be ToUint32(lenValue).
+    var len = O.length &gt;&gt;&gt; 0;
+
+    // 4. If IsCallable(callback) is false, throw a TypeError exception.
+    // See: http://es5.github.com/#x9.11
+    if (typeof callback !== &quot;function&quot;) {
+      throw new TypeError(callback + &quot; is not a function&quot;);
+    }
+
+    // 5. If thisArg was supplied, let T be thisArg; else let T be undefined.
+    if (arguments.length &gt; 1) {
+      T = thisArg;
+    }
+
+    // 6. Let k be 0
+    k = 0;
+
+    // 7. Repeat, while k &lt; len
+    while (k &lt; len) {
+      var kValue;
+
+      // a. Let Pk be ToString(k).
+      //   This is implicit for LHS operands of the in operator
+      // b. Let kPresent be the result of calling the HasProperty internal method of O with argument Pk.
+      //   This step can be combined with c
+      // c. If kPresent is true, then
+      if (k in O) {
+        // i. Let kValue be the result of calling the Get internal method of O with argument Pk.
+        kValue = O[k];
+
+        // ii. Call the Call internal method of callback with T as the this value and
+        // argument list containing kValue, k, and O.
+        callback.call(T, kValue, k, O);
+      }
+      // d. Increase k by 1.
+      k++;
+    }
+    // 8. return undefined
+  };
+}
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>From</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Remove all comments that return information that may help an attacker and fix any underlying problems they refer to.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-10">Re-examine Cache-control Directives</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET https://restful-booker.herokuapp.com</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/04-Authentication_Testing/06-Testing_for_Browser_Cache_Weaknesses">WSTG-v42-ATHN-06</a></span> 
+				</li>
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/525.html">CWE-525</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+				<li>
+					<span><a href="https://www.zaproxy.org/docs/desktop/addons/common-library/alerttags/#systemic">SYSTEMIC</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (257 bytes)</summary>
+				
+				<pre><code>GET https://restful-booker.herokuapp.com HTTP/1.1
+host: restful-booker.herokuapp.com
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (822 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Cache-Control: public, max-age=0
+Content-Length: 4455
+Content-Type: text/html; charset=utf-8
+Date: Thu, 06 Aug 2026 08:00:36 GMT
+Etag: W/&quot;1167-19d2f3f2e38&quot;
+Last-Modified: Fri, 27 Mar 2026 12:22:43 GMT
+Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=P4t60ANkdlsHzWwthWOrI9m0QCqLgFsV6gdycJJv1BQ%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1786003236&quot;}],&quot;max_age&quot;:3600}
+Reporting-Endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=P4t60ANkdlsHzWwthWOrI9m0QCqLgFsV6gdycJJv1BQ%3D&amp;sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&amp;ts=1786003236&quot;
+Server: Heroku
+Via: 1.1 heroku-router
+X-Powered-By: Express
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (4455 bytes)</summary>
+				
+				<pre><code>&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Welcome to Restful-Booker&lt;/title&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+    &lt;link href=&quot;https://fonts.googleapis.com/css?family=Cabin&quot; rel=&quot;stylesheet&quot;&gt;
+    &lt;link href=&quot;https://fonts.googleapis.com/css?family=Muli&quot; rel=&quot;stylesheet&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css&quot;&gt;
+    &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+    &lt;style&gt;
+        h1, h2, h3, h4, h5 {
+            font-family: &#39;Cabin&#39;, Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        p {
+            font-size: 1.2em;
+            font-family: &#39;Muli&#39;, Arial, Helvetica, sans-serif;
+        }
+	&lt;/style&gt;
+
+  &lt;!-- Google tag (gtag.js) --&gt;
+  &lt;script async src=&quot;https://www.googletagmanager.com/gtag/js?id=G-2Q48X98CJ6&quot;&gt;&lt;/script&gt;
+  &lt;script&gt;
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag(&#39;js&#39;, new Date());
+
+    gtag(&#39;config&#39;, &#39;G-2Q48X98CJ6&#39;);
+  &lt;/script&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div class=&quot;jumbotron p-4&quot;&gt;
+      &lt;div class=&quot;container&quot;&gt;
+        &lt;div class=&quot;row&quot;&gt;
+          &lt;div class=&quot;col-12 text-center&quot;&gt;
+            &lt;h1&gt;Welcome to Restful-Booker&lt;/h1&gt;
+            &lt;p&gt;An API playground created by &lt;a href=&quot;http://mwtestconsultancy.co.uk/&quot;&gt;Mark Winteringham&lt;/a&gt; for those wanting to learn more about API testing and tools&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;row&quot;&gt;
+          &lt;div class=&quot;col-12 text-center&quot;&gt;
+            &lt;p&gt;&lt;a href=&quot;https://twitter.com/2bittester&quot; alt=&quot;Twitter&quot;&gt;@2bittester&lt;/a&gt; | &lt;a href=&quot;http://mwtestconsultancy.co.uk/&quot; alt=&quot;MWTestConsultancy Website&quot;&gt;Website&lt;/a&gt; | &lt;a href=&quot;https://github.com/mwinteringham/restful-booker&quot; alt=&quot;API Code&quot;&gt;Code&lt;/a&gt; | &lt;a href=&quot;/apidoc/index.html&quot; alt=&quot;API documentation&quot;&gt;API Docs&lt;/a&gt;&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;container&quot;&gt;
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-12&quot;&gt;
+        	&lt;p&gt;Welcome to Restful-booker an API that you can use to learn more about API Testing or try out API testing tools against. Restful-booker is a &lt;span style=&quot;color: red; font-weight: bold&quot;&gt;C&lt;/span&gt;reate &lt;span style=&quot;color: red; font-weight: bold&quot;&gt;R&lt;/span&gt;ead &lt;span style=&quot;color: red; font-weight: bold&quot;&gt;U&lt;/span&gt;pdate &lt;span style=&quot;color: red; font-weight: bold&quot;&gt;D&lt;/span&gt;elete Web API that comes with authentication features and loaded with a bunch of bugs for you to explore. The API comes pre-loaded with 10 records for you to work with &lt;span style=&quot;font-weight: bold&quot;&gt;and resets itself every 10 minutes back to that default state.&lt;/span&gt; Restful-booker also comes with &lt;a href=&quot;/apidoc/index.html&quot; alt=&quot;API documentation&quot;&gt;detailed API documentation&lt;/a&gt; to help get you started with your API testing straight away.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;row&quot;&gt;
+          &lt;div class=&quot;col-12&quot;&gt;
+				    &lt;h2&gt;Support me and Restful-Booker&lt;/h2&gt;
+				    &lt;br /&gt;
+				    &lt;p&gt;Restful-booker is a free to use API for practising testing, but if you enjoy using this API please consider supporting me by purchasing one of my books. Alternatively you can support &lt;a href=&quot;https://www.ministryoftesting.com/go-pro?utm_medium=web&amp;utm_source=restful-booker&quot; target=&quot;_blank&quot;&gt;Ministry of Testing&lt;/a&gt; who host this API by going Pro.&lt;/p&gt;
+          &lt;/div&gt;  
+      &lt;/div&gt;
+      &lt;div class=&quot;row text-center&quot;&gt;
+        &lt;div class=&quot;col-4&quot;&gt;
+            &lt;h4 class=&quot;pb-2&quot;&gt;Buy AI-Assisted Testing&lt;/h4&gt;
+            &lt;a href=&quot;https://bit.ly/ai-testing&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/ai-assisted-testing.jpg&quot; alt=&quot;Testing Web APIs&quot; class=&quot;img img-fluid w-50 border border-light&quot;&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;col-4&quot;&gt;
+          &lt;h4 class=&quot;pb-2&quot;&gt;Buy Testing Web APIs&lt;/h4&gt;
+          &lt;a href=&quot;https://bit.ly/testwebapis&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/testing-web-apis.jpg&quot; alt=&quot;Testing Web APIs&quot; class=&quot;img img-fluid w-50 border border-light&quot;&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;col-4&quot;&gt;
+            &lt;h4 class=&quot;pb-2&quot;&gt;Go Pro with Ministry of Testing&lt;/h4&gt;
+            &lt;a href=&quot;https://www.ministryoftesting.com/go-pro?utm_medium=web&amp;utm_source=restful-booker&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/motpro.png&quot; alt=&quot;Boost your learning, go Pro&quot; class=&quot;img img-fluid w-75&quot;&gt;&lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>cache-control</code></pre></td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>public, max-age=0</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>For secure content, ensure the cache-control HTTP header is set with &quot;no-cache, no-store, must-revalidate&quot;. If an asset should be cached consider setting the directives &quot;public, max-age, immutable&quot;.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				  
+			</ol>
+		</section>
+
+		<section id="appendix" class="appendix">
+			<h2>Appendix</h2>
+
+			<section id="alert-types" class="alert-types">
+				<h3>Alert Types</h3>
+				<p class="alert-types-intro">This section contains additional information on the types of alerts in the report.</p>
+				<ol>
+					<li
+						id="alert-type-0">
+						<h4>CSP: Failure to Define Directive with No Fallback</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10055/">CSP</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/693.html">693</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>15</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://www.w3.org/TR/CSP/">https://www.w3.org/TR/CSP/</a></li>
+										<li><a
+											href="https://caniuse.com/#search=content+security+policy">https://caniuse.com/#search=content+security+policy</a></li>
+										<li><a
+											href="https://content-security-policy.com/">https://content-security-policy.com/</a></li>
+										<li><a
+											href="https://github.com/HtmlUnit/htmlunit-csp">https://github.com/HtmlUnit/htmlunit-csp</a></li>
+										<li><a
+											href="https://web.dev/articles/csp#resource-options">https://web.dev/articles/csp#resource-options</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-1">
+						<h4>Content Security Policy (CSP) Header Not Set</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10038/">Content Security Policy (CSP) Header Not Set</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/693.html">693</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>15</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP">https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP</a></li>
+										<li><a
+											href="https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html">https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</a></li>
+										<li><a
+											href="https://www.w3.org/TR/CSP/">https://www.w3.org/TR/CSP/</a></li>
+										<li><a
+											href="https://w3c.github.io/webappsec-csp/">https://w3c.github.io/webappsec-csp/</a></li>
+										<li><a
+											href="https://web.dev/articles/csp">https://web.dev/articles/csp</a></li>
+										<li><a
+											href="https://caniuse.com/#feat=contentsecuritypolicy">https://caniuse.com/#feat=contentsecuritypolicy</a></li>
+										<li><a
+											href="https://content-security-policy.com/">https://content-security-policy.com/</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-2">
+						<h4>Missing Anti-clickjacking Header</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10020/">Anti-clickjacking Header</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/1021.html">1021</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>15</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/X-Frame-Options">https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/X-Frame-Options</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-3">
+						<h4>Sub Resource Integrity Attribute Missing</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/90003/">Sub Resource Integrity Attribute Missing</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/345.html">345</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>15</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity">https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-4">
+						<h4>Cross-Domain JavaScript Source File Inclusion</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10017/">Cross-Domain JavaScript Source File Inclusion</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/829.html">829</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>15</td>
+							</tr>
+							
+						</table>
+					</li>
+					<li
+						id="alert-type-5">
+						<h4>Server Leaks Information via &quot;X-Powered-By&quot; HTTP Response Header Field(s)</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10037/">Server Leaks Information via &quot;X-Powered-By&quot; HTTP Response Header Field(s)</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/497.html">497</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>13</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/01-Information_Gathering/08-Fingerprint_Web_Application_Framework">https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/01-Information_Gathering/08-Fingerprint_Web_Application_Framework</a></li>
+										<li><a
+											href="https://www.troyhunt.com/shhh-dont-let-your-response-headers/">https://www.troyhunt.com/shhh-dont-let-your-response-headers/</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-6">
+						<h4>Strict-Transport-Security Header Not Set</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10035/">Strict-Transport-Security Header</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/319.html">319</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>15</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html">https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html</a></li>
+										<li><a
+											href="https://owasp.org/www-community/Security_Headers">https://owasp.org/www-community/Security_Headers</a></li>
+										<li><a
+											href="https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security">https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security</a></li>
+										<li><a
+											href="https://caniuse.com/stricttransportsecurity">https://caniuse.com/stricttransportsecurity</a></li>
+										<li><a
+											href="https://datatracker.ietf.org/doc/html/rfc6797">https://datatracker.ietf.org/doc/html/rfc6797</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-7">
+						<h4>X-Content-Type-Options Header Missing</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10021/">X-Content-Type-Options Header Missing</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/693.html">693</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>15</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)">https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)</a></li>
+										<li><a
+											href="https://owasp.org/www-community/Security_Headers">https://owasp.org/www-community/Security_Headers</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-8">
+						<h4>时间戳泄漏 - Unix</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10096/">时间戳泄漏</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/497.html">497</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>13</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://cwe.mitre.org/data/definitions/200.html">https://cwe.mitre.org/data/definitions/200.html</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-9">
+						<h4>Information Disclosure - Suspicious Comments</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10027/">Information Disclosure - Suspicious Comments</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/615.html">615</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>13</td>
+							</tr>
+							
+						</table>
+					</li>
+					<li
+						id="alert-type-10">
+						<h4>Re-examine Cache-control Directives</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10015/">Re-examine Cache-control Directives</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/525.html">525</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>13</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching">https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</a></li>
+										<li><a
+											href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cache-Control">https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cache-Control</a></li>
+										<li><a
+											href="https://grayduck.mn/2021/09/13/cache-control-recommendations/">https://grayduck.mn/2021/09/13/cache-control-recommendations/</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-11">
+						<h4>现代 Web 应用程序</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10109/">现代 Web 应用程序</a>)
+									</span>   
+								</td>
+							</tr>
+							
+							
+							
+						</table>
+					</li>
+				</ol>
+			</section>
+		</section>
+		 
+	</main>
+</body>
+</html>
+
+
+
